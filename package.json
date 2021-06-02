@@ -1,0 +1,19 @@
+{
+  "name": "biases-im-machine-learning",
+  "version": "1.0.0",
+  "description": "Interactive Poster for explaining Biases in Machine Learning (German)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Team-Obisidan/Biases-im-Machine-Learning.git"
+  },
+  "author": "Lukas Fruntke, Tom Dott, Maik Ruoff, Sebastian Ciornei, Oliver Groh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Team-Obisidan/Biases-im-Machine-Learning/issues"
+  },
+  "homepage": "https://github.com/Team-Obisidan/Biases-im-Machine-Learning#readme"
+}
