@@ -10,7 +10,24 @@
     "type": "git",
     "url": "git+https://github.com/Team-Obisidan/Biases-im-Machine-Learning.git"
   },
-  "author": "Lukas Fruntke, Tom Dott, Maik Ruoff, Sebastian Ciornei, Oliver Groh",
+  "author": "Team Obsidian",
+  "contributors": [
+    {
+      "name": "Tom Dott"
+    },
+    {
+      "name": "Lukas Fruntke"
+    },
+    {
+      "name": "Sebastian Ciornei"
+    },
+    {
+      "name": "Oliver Groh"
+    },
+    {
+      "name": "Maik Ruoff"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Team-Obisidan/Biases-im-Machine-Learning/issues"
