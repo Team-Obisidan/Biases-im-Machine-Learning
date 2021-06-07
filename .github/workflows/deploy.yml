@@ -11,7 +11,7 @@ on:
         required: false
         description: 'Dummy Input'
 jobs:
-  build_latex:
+  deploy_to_gh_pages:
     runs-on: ubuntu-latest
     steps:
       - name: Set up Git repository
