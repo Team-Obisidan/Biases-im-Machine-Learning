@@ -51,7 +51,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "xo && react-scripts test",
+    "test": "xo && react-scripts test --passWithNoTests",
     "eject": "react-scripts eject"
   },
   "xo": {
