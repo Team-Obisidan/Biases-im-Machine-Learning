@@ -15,27 +15,27 @@ export class FurtherLearningComponent extends Component{
 
                     <div className="mo-boxen">
 
-                        <div className="box1">
+                        <div className="box1 useme">
                             <p>text</p>
                         </div>
 
-                        <div className="box2">
+                        <div className="box2 useme">
                             <p>text</p>
                         </div>
 
-                        <div className="box1">
+                        <div className="box1 useme">
 
                         </div>
 
-                        <div className="box2">
+                        <div className="box2 useme">
 
                         </div>
 
-                        <div className="box1">
+                        <div className="box1 useme">
 
                         </div>
 
-                        <div className="box2">
+                        <div className="box2 useme">
 
                         </div>
 

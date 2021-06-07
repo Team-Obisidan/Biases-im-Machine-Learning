@@ -10,11 +10,11 @@ export class SourcesComponent extends Component {
 
             <div className="quellen1">
                 <h6>Videos und Quellen:</h6>
-                <div className="quellen2">
-                    <span className="green-span">
+                <div className="quellen2 ">
+                    <span className="green-span useme">
                         <FontAwesomeIcon icon={faYoutube} size="5x" />
                     </span>
-                    <span className="green-span ml20px">
+                    <span className="green-span ml20px useme">
                         <FontAwesomeIcon icon={faBook} size="4x" />
                     </span>
                 </div>

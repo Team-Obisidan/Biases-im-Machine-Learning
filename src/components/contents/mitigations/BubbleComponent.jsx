@@ -6,14 +6,14 @@ export class BubbleComponent extends Component{
     
 
     render(){
-        return(<Fragment><div className="kreis1">
+        return(<Fragment><div className="kreis1 useme">
         <span className="white-span">
             <FontAwesomeIcon icon={faYoutube} size="4x" />
         </span>
         <h5>Technischer Ansatz</h5>
         
     </div>
-    <div className="kreis2">
+    <div className="kreis2 useme">
         <span className="white-span">
             <FontAwesomeIcon icon={faYoutube} size="4x" />
         </span>

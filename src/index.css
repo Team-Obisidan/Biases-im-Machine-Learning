@@ -379,3 +379,8 @@ h6{
 .ml20px {
   margin-left: 20px;
 }
+
+.useme:hover {
+  animation: rubberBand;
+  animation-duration: 0.66s;
+}
