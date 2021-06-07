@@ -16,40 +16,59 @@ jobs:
     steps:
       - name: Set up Git repository
         uses: actions/checkout@v2      
-      - name: Bump version and push tag
-        id: tag_version
-        uses: mathieudutour/github-tag-action@v5.2
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Create a GitHub release
-        uses: actions/create-release@v1
-        id: create_release
+      # - name: Bump version and push tag
+      #   id: tag_version
+      #   uses: mathieudutour/github-tag-action@v5.2
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      # - name: Create a GitHub release
+      #   uses: actions/create-release@v1
+      #   id: create_release
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #   with:
+      #     tag_name: ${{ steps.tag_version.outputs.new_tag }}
+      #     release_name: Release ${{ steps.tag_version.outputs.new_tag }}
+      #     body: ${{ steps.tag_version.outputs.changelog }}
+      # - name: Archive Release
+      #   uses: thedoctor0/zip-release@master
+      #   with:
+      #     filename: 'release.zip'
+      #     exclusions: '*.git* /*node_modules/* .editorconfig'
+      # - name: Upload Release Asset
+      #   id: upload-release-asset 
+      #   uses: actions/upload-release-asset@v1
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #   with:
+      #     upload_url: ${{ steps.create_release.outputs.upload_url }} 
+      #     asset_path: ./release.zip
+      #     asset_name: release.zip
+      #     asset_content_type: application/zip
+      - name: Cache node modules
+        uses: actions/cache@v2
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          cache-name: cache-node-modules
         with:
-          tag_name: ${{ steps.tag_version.outputs.new_tag }}
-          release_name: Release ${{ steps.tag_version.outputs.new_tag }}
-          body: ${{ steps.tag_version.outputs.changelog }}
-      - name: Archive Release
-        uses: thedoctor0/zip-release@master
-        with:
-          filename: 'release.zip'
-          exclusions: '*.git* /*node_modules/* .editorconfig'
-      - name: Upload Release Asset
-        id: upload-release-asset 
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }} 
-          asset_path: ./release.zip
-          asset_name: release.zip
-          asset_content_type: application/zip
+          # npm cache files are stored in `~/.npm` on Linux/macOS
+          path: ~/.npm
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-build-${{ env.cache-name }}-
+            ${{ runner.os }}-build-
+            ${{ runner.os }}-
+
+      - name: Install Dependencies
+        run: npm install
+      - name: Run build
+        run: |
+          npm run build
       - name: Move to Github Pages
         run: |
-          find . -name '*.html' -exec cp --parents \{\} docs \;
-          find . -name '*.css' -exec cp --parents \{\} docs \;
-          find . -name '*.js' -exec cp --parents \{\} docs \;
+          cd build
+          find . -name '*.html' -exec cp --parents \{\} ../docs \;
+          find . -name '*.css' -exec cp --parents \{\} ../docs \;
+          find . -name '*.js' -exec cp --parents \{\} ../docs \;
 
       - name: Deploy 
         uses: JamesIves/github-pages-deploy-action@4.1.1

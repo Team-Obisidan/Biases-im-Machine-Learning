@@ -367,3 +367,15 @@ h6{
   font-weight: 100;  
 }
 
+.white-span {
+  color: #fff;
+  
+}
+
+.green-span {
+  color: #C4C4C4;
+}
+
+.ml20px {
+  margin-left: 20px;
+}
