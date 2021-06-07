@@ -1,3 +1,4 @@
+import { youtubeAlert } from 'components/contents/YoutubeAlert';
 import { FeatureComponent } from 'components/FeatureComponent';
 import { FurtherLearningComponent } from 'components/FurtherLearningComponent';
 import { HeaderComponent } from 'components/HeaderComponent';
@@ -8,6 +9,7 @@ import './App.css';
 
 
 function App() {
+  youtubeAlert();
   return (<div className="poster">
 
 
