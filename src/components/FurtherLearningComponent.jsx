@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {SourcesComponent} from './contents/SourcesComponent.jsx';
-import { youtubeAlert } from './contents/YoutubeAlert.jsx';
+import {youtubeAlert} from './contents/YoutubeAlert.jsx';
 
 export class FurtherLearningComponent extends Component {
 	render() {
@@ -15,21 +15,21 @@ export class FurtherLearningComponent extends Component {
 
 							<div className="mo-boxen">
 
-								<div className="box1 useme" onClick={()=> youtubeAlert()}>
+								<div className="box1 useme" onClick={() => youtubeAlert()}>
 									<p>text</p>
 								</div>
 
-								<div className="box2 useme" onClick={()=> youtubeAlert()}>
+								<div className="box2 useme" onClick={() => youtubeAlert()}>
 									<p>text</p>
 								</div>
 
-								<div className="box1 useme" onClick={()=> youtubeAlert()}/>
+								<div className="box1 useme" onClick={() => youtubeAlert()}/>
 
-								<div className="box2 useme" onClick={()=> youtubeAlert()}/>
+								<div className="box2 useme" onClick={() => youtubeAlert()}/>
 
-								<div className="box1 useme" onClick={()=> youtubeAlert()}/>
+								<div className="box1 useme" onClick={() => youtubeAlert()}/>
 
-								<div className="box2 useme" onClick={()=> youtubeAlert()}/>
+								<div className="box2 useme" onClick={() => youtubeAlert()}/>
 
 							</div>
 
