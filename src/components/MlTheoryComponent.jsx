@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {MLFutureOutlookComponent} from './contents/MlFutureOutlookComponent.jsx/index.js';
+import {MLFutureOutlookComponent} from './contents/MlFutureOutlookComponent.jsx';
 import {MLUsecaseComponent} from './contents/MlUsecaseComponent.jsx';
 
 export class MLTheoryComponent extends Component {
