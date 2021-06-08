@@ -15,17 +15,25 @@ body {
   -position: relative;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   -overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
 }
 .container {
   width: 1080px;
 }
 /* header */
+
+header{
+  height: 133px;
+}
+
 .headline {
   width: 1080px;
   height: 133px;
   background: rgba(75,99,110,1);
-  -position: fixed;
-  -z-index:9999
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: fixed;
+  z-index:9999
 }
 
 .headline .topic {
@@ -314,19 +322,21 @@ align-items: center;
   background-color: #9CCC65;
   height: 80px;
   width: 16%;
-  margin-right: 5px;
   padding: 10px;
   border-radius: 4px;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .box2{
   background-color: #FFCA28;
   height: 80px;
   width: 16%;
-  margin-right: 5px;
   padding: 10px;
   border-radius: 4px;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -358,6 +368,8 @@ align-items: center;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
