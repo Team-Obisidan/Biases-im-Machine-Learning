@@ -2,10 +2,6 @@
   "name": "biases-im-machine-learning",
   "version": "1.0.0",
   "description": "Interactive Poster for explaining Biases in Machine Learning (German)",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Team-Obisidan/Biases-im-Machine-Learning.git"
@@ -32,5 +28,64 @@
   "bugs": {
     "url": "https://github.com/Team-Obisidan/Biases-im-Machine-Learning/issues"
   },
-  "homepage": "https://github.com/Team-Obisidan/Biases-im-Machine-Learning#readme"
+  "homepage": "https://team-obisidan.github.io/Biases-im-Machine-Learning/",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@testing-library/jest-dom": "^5.13.0",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "animate.css": "^4.1.1",
+    "bootstrap": "^4.6.0",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.6.1",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "sweetalert2": "^11.0.16",
+    "sweetalert2-react-content": "^4.0.1",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "xo && react-scripts test --passWithNoTests",
+    "eject": "react-scripts eject"
+  },
+  "xo": {
+    "extends": "xo-react",
+    "webpack": true,
+    "globals": [
+      "test",
+      "expect",
+      "document"
+    ],
+    "rules": {
+      "unicorn/filename-case": [
+        "error",
+        {
+          "case": "pascalCase"
+        }
+      ]
+    }
+    
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint-config-xo-react": "^0.25.0",
+    "xo": "^0.40.2"
+  }
 }
