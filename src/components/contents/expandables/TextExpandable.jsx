@@ -24,7 +24,11 @@ export function textAlert(title, body, iconHtml = '⬤', iconColor = '#c79a00') 
 		closeButtonAriaLabel: 'Info schliessen',
 		showCancelButton: false,
 		showConfirmButton: false,
-		focusConfirm: true
+		focusConfirm: true,
+		customClass: {
+			// HtmlContainer: 'swal-wide',
+			popup: 'swal-wide'
+		}
 	});
 }
 

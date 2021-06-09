@@ -7,13 +7,13 @@ export class BubbleComponent extends Component {
 	render() {
 		return (
 			<>
-				<div className="kreis1 useme" onClick={() => youtubeAlert()}>
+				<div className="kreis1 useme" onClick={() => youtubeAlert('Technischer Ansatz', '#66BB6A')}>
 					<span className="white-span">
 						<FontAwesomeIcon icon={faYoutube} size="4x"/>
 					</span>
 					<h5>Technischer Ansatz</h5>
 				</div>
-				<div className="kreis2 useme" onClick={() => youtubeAlert()}>
+				<div className="kreis2 useme" onClick={() => youtubeAlert('Gesellschaftlicher Ansatz', '#FFCA28')}>
 					<span className="white-span">
 						<FontAwesomeIcon icon={faYoutube} size="4x"/>
 					</span>

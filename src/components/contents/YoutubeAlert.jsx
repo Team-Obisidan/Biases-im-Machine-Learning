@@ -6,7 +6,7 @@ import {Footnotes} from 'react-footnotes';
 import {YouTubeExpandable} from './expandables/YouTubeExpandable.jsx';
 const MySwal = withReactContent(Swal);
 
-export function youtubeAlert(title = 'Never gonna give you up', slug = 'dQw4w9WgXcQ', iconHtml = '⬤', iconColor = '#c79a00') {
+export function youtubeAlert(title = 'Never gonna give you up', iconColor = '#c79a00', slug = 'dQw4w9WgXcQ', iconHtml = '⬤') {
 	MySwal.fire({
 		title,
 		html: getBody(slug),
@@ -16,7 +16,11 @@ export function youtubeAlert(title = 'Never gonna give you up', slug = 'dQw4w9Wg
 		closeButtonAriaLabel: 'Info schliessen',
 		showCancelButton: false,
 		showConfirmButton: false,
-		focusConfirm: true
+		focusConfirm: true,
+		customClass: {
+			// HtmlContainer: 'swal-wide',
+			popup: 'swal-wide'
+		}
 	});
 }
 

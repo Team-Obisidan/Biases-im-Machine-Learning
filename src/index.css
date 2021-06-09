@@ -396,3 +396,8 @@ h6{
   animation: rubberBand;
   animation-duration: 0.66s;
 }
+
+.swal-wide{
+  width:1000px !important;
+  display:block;
+}
