@@ -31,6 +31,7 @@
   "homepage": "https://team-obisidan.github.io/Biases-im-Machine-Learning/",
   "private": true,
   "dependencies": {
+    "@fontsource/roboto": "^4.4.5",
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
     "@fortawesome/free-brands-svg-icons": "^5.15.3",
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
@@ -43,6 +44,7 @@
     "react": "^17.0.2",
     "react-bootstrap": "^1.6.1",
     "react-dom": "^17.0.2",
+    "react-footnotes": "^0.1.2",
     "react-scripts": "4.0.3",
     "sweetalert2": "^11.0.16",
     "sweetalert2-react-content": "^4.0.1",
@@ -63,6 +65,9 @@
       "document"
     ],
     "rules": {
+      "react/prop-types": "off",
+      "react/jsx-key": "off",
+      "import/no-unassigned-import": "off",
       "unicorn/filename-case": [
         "error",
         {

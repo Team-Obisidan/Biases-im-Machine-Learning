@@ -1,6 +1,7 @@
 import {faYoutube} from '@fortawesome/free-brands-svg-icons';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import React, {Component} from 'react';
+import {youtubeAlert} from './contents/YoutubeAlert.jsx';
 export class FeatureComponent extends Component {
 	render() {
 		return (
@@ -10,16 +11,17 @@ export class FeatureComponent extends Component {
 						<div className="th-topic col-lg-4">
 							<h2>ML</h2>
 
-							<div className="th-kreis1 useme">
+							<div className="th-kreis1 useme" onClick={() => youtubeAlert('ML', '#FFA726')}>
 								<span className="white-span">
 									<FontAwesomeIcon icon={faYoutube} size="5x"/>
 								</span>
 							</div>
 
 						</div>
+
 						<div className="th-topic col-lg-4">
 							<h2>Biases</h2>
-							<div className="th-kreis2 useme">
+							<div className="th-kreis2 useme" onClick={() => youtubeAlert('Biases', '#00766C')}>
 								<span className="white-span">
 									<FontAwesomeIcon icon={faYoutube} size="5x"/>
 								</span>
@@ -27,7 +29,7 @@ export class FeatureComponent extends Component {
 						</div>
 						<div className="th-topic col-lg-4">
 							<h2>Gesellschaft</h2>
-							<div className="th-kreis3 useme">
+							<div className="th-kreis3 useme" onClick={() => youtubeAlert('Gesellschaft', '#790E8B')}>
 								<span className="white-span">
 									<FontAwesomeIcon icon={faYoutube} size="5x"/>
 								</span>
