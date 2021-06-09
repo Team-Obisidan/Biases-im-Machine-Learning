@@ -67,6 +67,7 @@
     "rules": {
       "react/prop-types": "off",
       "react/jsx-key": "off",
+      "import/no-unassigned-import": "off",
       "unicorn/filename-case": [
         "error",
         {
