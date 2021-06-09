@@ -3,16 +3,16 @@ import Swal from 'sweetalert2';
 import withReactContent from 'sweetalert2-react-content';
 const MySwal = withReactContent(Swal);
 
-export const TextExpandable = props => {
+export const AbstractTextExpandable = props => {
 	if(!!props.titleDisplay){
 		props.titleDisplay= true;
 	}
+	console.log(props.children)
 	return (
-		<div style={{cursor: 'pointer'}} onClick={() => textAlert(props.title, props.children, props.iconHtml, props.iconColor)}>
+		<div style={{cursor: 'pointer'}} onClick={() => textAlert(props.title, props.children[2], props.iconHtml, props.iconColor)}>
 			{props.titleDisplay ? <h4>{props.title}</h4> : <></>}
-			<p>
-				{typeof props.children === 'string' ? trunc(props.children, props.length) : props.children}
-			</p>
+			{props.children[0]}
+			{typeof props.children[1] === 'string' ? trunc(props.children[1], props.length) : props.children[1]}
 		</div>
 	);
 };
