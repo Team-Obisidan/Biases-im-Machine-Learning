@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import '@fontsource/roboto'
 import 'bootstrap/dist/css/bootstrap.css';
 import 'animate.css/animate.css';
 import './index.css';
