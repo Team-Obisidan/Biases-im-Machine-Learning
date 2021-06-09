@@ -8,7 +8,7 @@ export const TextExpandable = props => {
 		<div style={{cursor: 'pointer'}} onClick={() => textAlert(props.title, props.children)}>
 			<h4>{props.title}</h4>
 			<p>
-				{typeof props.children == 'string' ? trunc(props.children, props.length) : props.children}
+				{typeof props.children === 'string' ? trunc(props.children, props.length) : props.children}
 			</p>
 		</div>
 	);
@@ -28,17 +28,15 @@ export function textAlert(title, body, iconHtml = '⬤', iconColor = '#c79a00') 
 	});
 }
 
-function trunc(str, length = 500){
-	let arr = str.split("").splice(0, length);
+function trunc(string, length = 500) {
+	const array = string.split('').splice(0, length);
 
-	if(str.length < length || arr.lastIndexOf(" ") == -1)
-		return str;
+	if (string.length < length || array.lastIndexOf(' ') === -1) {
+		return string;
+	}
 
+	const space = array.lastIndexOf(' ');
+	const trim = array.splice(0, space);
 
-	
-	let space = arr.lastIndexOf(" ");
-	let trim = arr.splice(0, space);
-	
-	return trim.join("") + " [...]"
-
+	return trim.join('') + ' [...]';
 }
