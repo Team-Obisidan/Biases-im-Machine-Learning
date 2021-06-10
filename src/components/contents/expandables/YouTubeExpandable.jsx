@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const YouTubeExpandable = ({slug = 'dQw4w9WgXcQ', title = 'Never gonny give you up', autoplay = true}) => {
+export const YouTubeExpandable = ({slug = 'dQw4w9WgXcQ', title = 'Never gonny give you up', autoplay = false}) => {
 	return (
 		<iframe
 			allowFullScreen
@@ -10,6 +10,7 @@ export const YouTubeExpandable = ({slug = 'dQw4w9WgXcQ', title = 'Never gonny gi
 			title={title}
 			frameBorder="0"
 			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+			className="my-4"
 		/>
 	);
 };
