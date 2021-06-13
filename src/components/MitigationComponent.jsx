@@ -13,20 +13,20 @@ export class MitigationComponent extends Component {
 						<div className="miti-box">
 							<div className="row">
 								<div className="textmiti col-lg-8">
-									<div className="überschrift2">
+									<div className="überschrift2 shadow-sm">
 										<h2>Mitigation von Biases in ML</h2>
 									</div>
 									<div className="inter-lvl">
 
-										<div className="inhalt4">
+										<div className="inhalt4 shadow-sm">
 											<SocietalComponent/>
 										</div>
 
-										<div className="inhalt5 ">
+										<div className="inhalt5 shadow-sm">
 											<IndustrialComponent/>
 										</div>
 
-										<div className="inhalt6 ">
+										<div className="inhalt6 shadow-sm">
 											<OrganisationalComponent/>
 										</div>
 

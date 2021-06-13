@@ -3,7 +3,7 @@
 }
 body {
   font-size: 14px;
-  font-family: "Roboto";
+  font-family: "Roboto", "Times New Roman", Times, serif;
   
 }
 
@@ -41,6 +41,10 @@ header{
   color: #ffffff;
 }
 
+.headline .topic .title {
+  font-family: "Roboto-Slab", "Times New Roman", Times, serif;
+}
+
 .theorie {
   width: 1040px;
   height: 348px;
@@ -66,7 +70,7 @@ header{
   width: 230px;
   height: 230px;
   border-radius: 50%;
-  background-color: #FFA726;
+  background-color: #c63f17;
   display: grid;
   justify-content: center;
   align-items: center;
@@ -401,3 +405,13 @@ h6{
   width:1000px !important;
   display:block;
 }
+
+.name-link{
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.name-link:hover{
+  color: #000000;
+}
+

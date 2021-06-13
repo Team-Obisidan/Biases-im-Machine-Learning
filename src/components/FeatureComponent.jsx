@@ -4,30 +4,18 @@ import React, {Component} from 'react';
 import {Footnotes} from 'react-footnotes';
 import {AbstractTextExpandable} from './contents/expandables/AbstractTextExpandable.jsx';
 import {YouTubeExpandable} from './contents/expandables/YouTubeExpandable.jsx';
-export class FeatureComponent extends Component {
-	getFooter(getFootnotes) {
-		return (
-			<><hr/>
-				<ol style={{listStyleType: 'none'}}>
-					{Object.keys(getFootnotes()).map(i => {
-						return (
-							<li><sup>{i}</sup>&nbsp;{getFootnotes()[i].desc}</li>
-						);
-					})}
-				</ol>
-			</>
-		);
-	}
+import {getFooter} from './GetFooter.jsx';
 
+export class FeatureComponent extends Component {
 	render() {
 		return (
 			<div className="theorie">
 				<div className="container">
 					<div className="row">
 						<div className="th-topic col-lg-4">
-							<h2>ML</h2>
+							<h2 style={{textShadow: '1px 2px rgba(0, 0, 0, 0.175)'}}>ML</h2>
 
-							<div className="th-kreis1 useme">
+							<div className="th-kreis1 useme shadow">
 
 								<AbstractTextExpandable title="ML" length="900" iconColor="#FFA726">
 									<span className="white-span">
@@ -59,7 +47,7 @@ export class FeatureComponent extends Component {
 													Die Grundlage für das maschinelle Lernen stellen demnach Algorithmen und Trainingsdaten dar.<Footnote i={4} desc="Vgl. Welsch/Eitle/Buxmann 2018, S. 371"/>
 												</p>
 
-												{this.getFooter(getFootnotes)}
+												{getFooter(getFootnotes)}
 											</div>
 										)}
 									</Footnotes>
@@ -70,21 +58,22 @@ export class FeatureComponent extends Component {
 						</div>
 
 						<div className="th-topic col-lg-4">
-							<h2>Biases</h2>
-							<div className="th-kreis2 useme">
+							<h2 style={{textShadow: '1px 3px rgba(0, 0, 0, 0.175)'}}>Biases</h2>
+							<div className="th-kreis2 useme shadow-lg">
 								<AbstractTextExpandable title="Biases" length="900" iconColor="#00766C">
 									<span className="white-span">
 										<FontAwesomeIcon icon={faYoutube} size="5x"/>
 									</span>
 									<p className="white-span">
-										Biases bedeutet übersetzt so viel wie Verzerrungen, Voreingenommenheit oder Vorurteile. Doch was hat das mit ML zu tun?
+										&bdquo;Bias&ldquo; bedeutet übersetzt so viel wie Vorurteil, Verzerrung oder Voreingenommenheit. <br/>
+										Doch was hat das mit ML zu tun?
 									</p>
 
 									<Footnotes>
 										{({Footnote, getFootnotes}) => (
 											<div style={{textAlign: 'left'}}>
 												<p>
-													Bias bedeutet übersetzt so viel wie Vorurteile, Verzerrungen oder Voreingenommenheit.
+													&bdquo;Bias&ldquo; bedeutet übersetzt so viel wie Vorurteil, Verzerrung oder Voreingenommenheit.
 													Bias im Machine Learining steht meist im Kontext zu Verzerrungen oder Voreingenommenheit.
 													Anwendungen, bei denen Machine Learning angewendet werden, haben oftmals eine große gesellschaftliche Reich- oder Tragweite.
 													Umso wichtiger ist es, dass die Anwendung von Verfahren des Machine Learning auf Verzerrungen oder Voreingenommenheit überprüft werden.<Footnote i={1} desc="Vgl. Hagendorff 2019, S. 54"/>
@@ -132,7 +121,7 @@ export class FeatureComponent extends Component {
 													Bspw. ergeben Testdaten, dass nur 28,4 % der Frauen Führungskräfte besetzen.
 													Infolgedessen schlägt die KI Frauen weniger „gute“ Stellen vor. Frauen werden demnach benachteiligt, obwohl die Testdaten keinen Fehler als solchen haben, sondern die historische Realität widerspiegeln.<Footnote i={15} desc="Vgl. Suresh/Guttag 2020, S. 4 f."/><sup>,</sup><Footnote i={16} desc="Vgl. Mehrabi/Morstatter/Saxena/Lerman/Galstyan 2019, S. 4 ff."/>
 												</p>
-												{this.getFooter(getFootnotes)}
+												{getFooter(getFootnotes)}
 											</div>
 										)}
 									</Footnotes>
@@ -140,14 +129,15 @@ export class FeatureComponent extends Component {
 							</div>
 						</div>
 						<div className="th-topic col-lg-4">
-							<h2>Gesellschaft</h2>
-							<div className="th-kreis3 useme">
+							<h2 style={{textShadow: '1px 2px rgba(0, 0, 0, 0.175)'}}>Gesellschaft</h2>
+							<div className="th-kreis3 useme shadow">
 								<AbstractTextExpandable title="Gesellschaft" length="900" iconColor="#790E8B">
 									<span className="white-span">
 										<FontAwesomeIcon icon={faYoutube} size="5x"/>
 									</span>
 									<p className="white-span">
-										Eine Gesellschaft beschreibt vorübergehend vereint lebender bzw. vorübergehend auf einem Raum vereinte Personen.
+										Eine Gesellschaft beschreibt vorübergehend vereint lebende bzw. vorübergehend auf einem <br/>
+										Raum vereinte Personen.
 									</p>
 
 									<Footnotes>
@@ -168,7 +158,7 @@ export class FeatureComponent extends Component {
 													Fundamentale Dynamiken treffen in dem menschlichen Bestehen zusammen:<Footnote i={5} desc="Vgl. Krossa 2018, S. 9 f."/> <span className="font-italic">&bdquo;die</span> [Dynamiken] <span className="font-italic">zwischen Kollektiven und Individuen, zwischen dem Universalen und dem Partikularen, zwischen Übereinstimmung und Unterschiedlichkeit&ldquo;</span>.<Footnote i={6} desc="Krossa 2018. S. 9"/>
 												</p>
 
-												{this.getFooter(getFootnotes)}
+												{getFooter(getFootnotes)}
 											</div>
 										)}
 									</Footnotes>
