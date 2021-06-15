@@ -6,7 +6,6 @@ import {AbstractTextExpandable} from './contents/expandables/AbstractTextExpanda
 import {YouTubeExpandable} from './contents/expandables/YouTubeExpandable.jsx';
 import {getFooter} from './GetFooter.jsx';
 
-
 export class FeatureComponent extends Component {
 	render() {
 		return (
@@ -84,7 +83,6 @@ export class FeatureComponent extends Component {
 													{' '}
 												</p>
 
-
 												<YouTubeExpandable/>
 												<p>
 													Die Voreingenommenheit besagt die unterschiedlichen Schlüsse, die wir je nach unseren Erfahrungen ziehen.
@@ -115,7 +113,7 @@ export class FeatureComponent extends Component {
 													{' '}
 												</p>
 												<p>
-												<span className="font-weight-bold">Aggregation Bias</span> beschreibt das Phänomen, dass ein Modell nicht für die Problemlösung nicht ausreicht.
+													<span className="font-weight-bold">Aggregation Bias</span> beschreibt das Phänomen, dass ein Modell nicht für die Problemlösung nicht ausreicht.
 													{' '}
 													Diese Verzerrung entsteht durch Verwendung eines Einheitsmodell für Gruppen mit unterschiedlichen bedingten Verteilungen.<Footnote i={11} desc="Vgl. Mehrabi/Morstatter/Saxena/Lerman/Galstyan 2019, S. 4 ff."/>
 													{' '}
@@ -124,10 +122,10 @@ export class FeatureComponent extends Component {
 													Da diese Faktoren innerhalb verschiedener Subpopulationen unterschiedliche Bedeutungen haben, ist es unwahrscheinlich, dass ein einziges Modell zur Vorhersage von Komplikationen für jede Gruppe in der Population ausreichend ist, selbst wenn sie in den Trainingsdaten gleichermaßen vertreten sind.<Footnote i={12} desc="Vgl. Suresh/Guttag 2020, S. 6"/>
 												</p>
 												<p>
-												<span className="font-weight-bold">Deployment Biases</span> entstehen, wenn Diskrepanzen zwischen der Problemlösung eines Modells und der Art und Weise, wie das Modell tatsächlich verwendet wird, auftreten.<Footnote i={13} desc="Vgl. Suresh/Guttag 2020, S. 2 ff."/> <br/>
+													<span className="font-weight-bold">Deployment Biases</span> entstehen, wenn Diskrepanzen zwischen der Problemlösung eines Modells und der Art und Weise, wie das Modell tatsächlich verwendet wird, auftreten.<Footnote i={13} desc="Vgl. Suresh/Guttag 2020, S. 2 ff."/> <br/>
 													Ein Modell wird quasi für Fall X gebaut, wird dann aber für Fall Y verwendet.
 													{' '}
-													Da das Modell dafür nicht erstellt wurde, gibt es keine Garantie, dass eine gute Evaluationsleistung von Anwendungsfall zu Anwendungsfall übertragen wird. <br />
+													Da das Modell dafür nicht erstellt wurde, gibt es keine Garantie, dass eine gute Evaluationsleistung von Anwendungsfall zu Anwendungsfall übertragen wird. <br/>
 													{' '}
 													Bspw. werden Risikobewertungstools, welche die Wahrscheinlichkeit berechnen/schätzen, dass eine Person auf eine bestimmte Art handelt, zweckentfremdet.
 													{' '}
