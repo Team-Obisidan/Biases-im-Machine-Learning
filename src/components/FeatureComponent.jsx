@@ -1,10 +1,11 @@
 import {faYoutube} from '@fortawesome/free-brands-svg-icons';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import React, {Component} from 'react';
-import {Footnotes} from 'react-footnotes';
+import {Footnotes} from '@team-obisidan/react-footnotes';
 import {AbstractTextExpandable} from './contents/expandables/AbstractTextExpandable.jsx';
 import {YouTubeExpandable} from './contents/expandables/YouTubeExpandable.jsx';
 import {getFooter} from './GetFooter.jsx';
+
 
 export class FeatureComponent extends Component {
 	render() {
@@ -17,7 +18,7 @@ export class FeatureComponent extends Component {
 
 							<div className="th-kreis1 useme shadow">
 
-								<AbstractTextExpandable title="ML" length="900" iconColor="#FFA726">
+								<AbstractTextExpandable title="ML" length="900" iconColor="#c63f17">
 									<span className="white-span">
 										<FontAwesomeIcon icon={faYoutube} size="5x"/>
 									</span>
@@ -74,52 +75,78 @@ export class FeatureComponent extends Component {
 											<div style={{textAlign: 'left'}}>
 												<p>
 													&bdquo;Bias&ldquo; bedeutet übersetzt so viel wie Vorurteil, Verzerrung oder Voreingenommenheit.
+													{' '}
 													Bias im Machine Learining steht meist im Kontext zu Verzerrungen oder Voreingenommenheit.
+													{' '}
 													Anwendungen, bei denen Machine Learning angewendet werden, haben oftmals eine große gesellschaftliche Reich- oder Tragweite.
+													{' '}
 													Umso wichtiger ist es, dass die Anwendung von Verfahren des Machine Learning auf Verzerrungen oder Voreingenommenheit überprüft werden.<Footnote i={1} desc="Vgl. Hagendorff 2019, S. 54"/>
+													{' '}
 												</p>
+
 
 												<YouTubeExpandable/>
 												<p>
 													Die Voreingenommenheit besagt die unterschiedlichen Schlüsse, die wir je nach unseren Erfahrungen ziehen.
+													{' '}
 													Die Verzerrung beschreibt im statistischen Sinne die mittlere systematische Abweichung zwischen dem erwarteten („richtigen“) Modellergebnis und dem mittleren wirklich eingetretenen Modellergebnis.<Footnote i={2} desc="Vgl. Mehrabi/Morstatter/Saxena/Lerman/Galstyan 2019, S. 3 ff."/>
+													{' '}
 													Oftmals ergeben sich schlechte Ergebnisse durch schlechte Eingangsdaten (garbage in garbage out).
+													{' '}
 												</p>
 												<p>
 													Dies ist allerdings nicht der einzige Grund. Die Folge der Bias sind Fehler in den Ergebnissen der KI, durch bspw. diskriminierende Strukturen.<Footnote i={3} desc="Vgl. Mehrabi/Morstatter/Saxena/Lerman/Galstyan 2019, S. 4 ff."/><sup>,</sup><Footnote i={4} desc="Vgl. Kagian/Dror/Leyvand/Meilijson/Cohen-Or/Ruppin, S. 235 ff."/>
-													Es gibt viele verschiedene Arten von Bias. Beispiele hierfür sind; Representation Bias, Measurement Bias, Aggregation Bias, Deployment Bias und Historical Bias.<Footnote i={5} desc="Vgl. Mehrabi/Morstatter/Saxena/Lerman/Galstyan 2019, S. 4 ff."/>
+													{' '}
+													Es gibt viele verschiedene Arten von Bias. Beispiele hierfür sind: <span className="font-weight-bold">Representation Bias</span>, <span className="font-weight-bold">Measurement Bias</span>, <span className="font-weight-bold">Aggregation Bias</span>, <span className="font-weight-bold">Deployment Bias</span> und <span className="font-weight-bold">Historical Bias</span>.<Footnote i={5} desc="Vgl. Mehrabi/Morstatter/Saxena/Lerman/Galstyan 2019, S. 4 ff."/>
+													{' '}
 												</p>
-												<p>Bei dem Representation Bias ist immer ein bestimmter Teil des Eingaberaums unterrepräsentiert.<Footnote i={6} desc="Vgl. Suresh/Guttag 2020, S. 2 f."/>
-
+												<p>
+													Bei dem <span className="font-weight-bold">Representation Bias</span> ist immer ein bestimmter Teil des Eingaberaums unterrepräsentiert.<Footnote i={6} desc="Vgl. Suresh/Guttag 2020, S. 2 f."/>
+													{' '}
 													Wenn eine Gruppe eine Minderheit mit nur bspw. 5 % der Verteilung ausmacht, dann führt das Sampling aus der Datenverteilung wahrscheinlich zu einem weniger funktionierenden Modell für diese Gruppe.
+													{' '}
 													Ein Beispiel aus der Praxis, welches leider immer wieder auftritt ist, dass farbige Personen seltener bei Testdaten verwendet werden und so auch seltener auf Bilderkennungsprogram identifiziert werden können.<Footnote i={7} desc="Vgl. Mehrabi/Morstatter/Saxena/Lerman/Galstyan 2019, S. 4 ff."/><sup>,</sup><Footnote i={8} desc="Vgl. Suresh/Guttag 2020, S. 5"/>
+													{' '}
 												</p>
 												<p>
-													Beim Measurement Bias führt falsches kategorisieren dazu, dass die Ergebnisse bzw. die Testdaten falsch sind und infolgedessen die KI auch falsche Ergebnisse ausgibt.
+													Beim <span className="font-weight-bold">Measurement Bias</span> führt falsches kategorisieren dazu, dass die Ergebnisse bzw. die Testdaten falsch sind und infolgedessen die KI auch falsche Ergebnisse ausgibt.
+													{' '}
 													Diese Messverzerrung kann bei der Auswahl, Sammlung oder Berechnung von Merkmalen und Labels auftreten.<Footnote i={9} desc="Vgl. Mehrabi/Morstatter/Saxena/Lerman/Galstyan 2019, S. 4 ff."/><sup>,</sup><Footnote i={10} desc="Vgl. Suresh/Guttag 2020, S. 5 f."/>
+													{' '}
 												</p>
 												<p>
-													Aggregation Bias beschreibt das Phänomen, dass ein Modell nicht für die Problemlösung nicht ausreicht.
+												<span className="font-weight-bold">Aggregation Bias</span> beschreibt das Phänomen, dass ein Modell nicht für die Problemlösung nicht ausreicht.
+													{' '}
 													Diese Verzerrung entsteht durch Verwendung eines Einheitsmodell für Gruppen mit unterschiedlichen bedingten Verteilungen.<Footnote i={11} desc="Vgl. Mehrabi/Morstatter/Saxena/Lerman/Galstyan 2019, S. 4 ff."/>
+													{' '}
 													Bspw. ist bekannt, dass Diabetes-Patienten je nach ethnischer Zugehörigkeit unterschiedliche Komplikationen aufweisen.
+													{' '}
 													Da diese Faktoren innerhalb verschiedener Subpopulationen unterschiedliche Bedeutungen haben, ist es unwahrscheinlich, dass ein einziges Modell zur Vorhersage von Komplikationen für jede Gruppe in der Population ausreichend ist, selbst wenn sie in den Trainingsdaten gleichermaßen vertreten sind.<Footnote i={12} desc="Vgl. Suresh/Guttag 2020, S. 6"/>
 												</p>
 												<p>
-													Deployment Biases entstehen, wenn Diskrepanzen zwischen der Problemlösung eines Modells und der Art und Weise, wie das Modell tatsächlich verwendet wird, auftreten.<Footnote i={13} desc="Vgl. Suresh/Guttag 2020, S. 2 ff."/>
+												<span className="font-weight-bold">Deployment Biases</span> entstehen, wenn Diskrepanzen zwischen der Problemlösung eines Modells und der Art und Weise, wie das Modell tatsächlich verwendet wird, auftreten.<Footnote i={13} desc="Vgl. Suresh/Guttag 2020, S. 2 ff."/> <br/>
 													Ein Modell wird quasi für Fall X gebaut, wird dann aber für Fall Y verwendet.
-													Da das Modell dafür nicht erstellt wurde, gibt es keine Garantie dafür, dass eine gute Evaluationsleistung von Anwendungsfall zu Anwendungsfall übertragen wird.
-												</p>
-												<p>
+													{' '}
+													Da das Modell dafür nicht erstellt wurde, gibt es keine Garantie, dass eine gute Evaluationsleistung von Anwendungsfall zu Anwendungsfall übertragen wird. <br />
+													{' '}
 													Bspw. werden Risikobewertungstools, welche die Wahrscheinlichkeit berechnen/schätzen, dass eine Person auf eine bestimmte Art handelt, zweckentfremdet.
+													{' '}
 													Dabei werden diese Tools womöglich sogar verwendet, um die Länge einer Strafe zu bestimmen.
+													{' '}
 													Die Folge sind versicherungsmathematische Strafzumessungen, die eine erhöhte Inhaftierungen auf Grund persönlicher Merkmale ergeben.
+													{' '}
 													So bekommen farbige Personen häufig eine längere Haftstrafe.<Footnote i={14} desc="Vgl. Suresh/Guttag 2020, S. 6 ff."/>
+													{' '}
 												</p>
 												<p>
-													Historical Bias treten selbst bei perfekt gemessenen und gelabelten Daten auf.
+													<span className="font-weight-bold">Historical Bias</span> treten selbst bei perfekt gemessenen und gelabelten Daten auf.
+													{' '}
 													Diese Verzerrung entsteht, wenn Geschehnisse auf der Welt ein Modell dazu bringen, Ergebnisse zu produzieren, diese Ergebnisse jedoch nicht erwünscht sind.<Footnote i={15} desc="Vgl. Suresh/Guttag 2020, S. 2 f."/>
+													{' '}
 													Bspw. ergeben Testdaten, dass nur 28,4 % der Frauen Führungskräfte besetzen.
+													{' '}
 													Infolgedessen schlägt die KI Frauen weniger „gute“ Stellen vor. Frauen werden demnach benachteiligt, obwohl die Testdaten keinen Fehler als solchen haben, sondern die historische Realität widerspiegeln.<Footnote i={15} desc="Vgl. Suresh/Guttag 2020, S. 4 f."/><sup>,</sup><Footnote i={16} desc="Vgl. Mehrabi/Morstatter/Saxena/Lerman/Galstyan 2019, S. 4 ff."/>
+													{' '}
 												</p>
 												{getFooter(getFootnotes)}
 											</div>
@@ -145,17 +172,25 @@ export class FeatureComponent extends Component {
 											<div style={{textAlign: 'left'}}>
 												<p>
 													Eine Gesellschaft beschreibt Personen oder Lebende, die räumlich gemeinsam leben bzw. vorübergehend innerhalb einer Räumlichkeit vereint sind.
+													{' '}
 													Die Komplexität des Begriffes lässt sich nach dieser Definition schon erahnen.<Footnote i={1} desc="Vgl. Schäfers 2018, S. 141"/>
+													{' '}
 													Im heutigen Verständnis sprechen wir bei einer Gesellschaft von menschlichem Zusammenleben.<Footnote i={2} desc="Vgl. Schäfers 2018, S. 141 "/>
+													{' '}
 												</p>
 
 												<YouTubeExpandable/>
 												<p>
 													Tatsächlich ist der Begriff der Gesellschaft in der Soziologie sehr umstritten.
+													{' '}
 													Bspw. schrieb Warnfried Dettling, ein deutscher Politologe und Publizist, dass es die Gesellschaft nicht mehr gebe, sondern nur noch individuelle Personen, <span className="font-italic">&bdquo;die sich nicht länger in alten Formationen bewegen&ldquo;</span>.<Footnote i={3} desc="Vgl. Krossa 2018, S. 1"/><sup>,</sup><Footnote i={4} desc="Kneer 1997, S. 7"/>
+													{' '}
 												</p>
-												<p>Die Begriffsdefinition der Gesellschaft ist deshalb so komplex, da die Menschen sehr unterschiedlich sind.
+												<p>
+													Die Begriffsdefinition der Gesellschaft ist deshalb so komplex, da die Menschen sehr unterschiedlich sind.
+													{' '}
 													Fundamentale Dynamiken treffen in dem menschlichen Bestehen zusammen:<Footnote i={5} desc="Vgl. Krossa 2018, S. 9 f."/> <span className="font-italic">&bdquo;die</span> [Dynamiken] <span className="font-italic">zwischen Kollektiven und Individuen, zwischen dem Universalen und dem Partikularen, zwischen Übereinstimmung und Unterschiedlichkeit&ldquo;</span>.<Footnote i={6} desc="Krossa 2018. S. 9"/>
+													{' '}
 												</p>
 
 												{getFooter(getFootnotes)}
