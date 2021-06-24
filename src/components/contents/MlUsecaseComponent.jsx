@@ -2,6 +2,10 @@ import React, {Component, Fragment} from 'react';
 import {Footnotes} from '@team-obisidan/react-footnotes';
 import {getFooter} from 'components/GetFooter.jsx';
 import {TextExpandable} from './expandables/TextExpandable.jsx';
+import prisoner from './prisoner.jpeg';
+import {ReactComponent as RiskWhite} from './risk-scores-white.svg';
+import {ReactComponent as RiskBlack} from './risk-scores-black.svg';
+
 export class MLUsecaseComponent extends Component {
 	render() {
 		return (
@@ -19,13 +23,13 @@ export class MLUsecaseComponent extends Component {
 									<div style={{textAlign: 'left'}}>
 
 										<p>
-											Machine Learning findet mit den letzten Jahren zunehmend seinen Weg in immer mehr Bereiche der Wirtschaft, der Bildung und der öffentlichen Verwaltung.<Footnote i={1} desc="Vgl. Arora, A. (2018).. 1"/>
+											Machine Learning findet mit den letzten Jahren zunehmend seinen Weg in immer mehr Bereiche der Wirtschaft, der Bildung und der öffentlichen Verwaltung.<Footnote i={1} desc="Vgl. Arora, A. (2018), S. 1"/>
 											<br/>
 											Die auf Machine Learning basierenden Künstlichen Intelligenzen (KIs) werden hierbei mit dem Ziel eingesetzt präzisere Entscheidungen zu treffen, so wie Personalaufwand zu minimieren.
 											{' '}
-											Häufig wird hierbei angenommen das die KI den Menschen in vielen Bereichen ersetzen wird, während die Forschung in diesem Bereich davon ausgeht, dass derartige Systeme für lange Zeit lediglich ergänzend zur menschlichen Tätigkeit stattfinden.<Footnote i={2} desc="Vgl. Adorno, M. et al. (2020), pp. 67–68"/>
+											Häufig wird hierbei angenommen das die KI den Menschen in vielen Bereichen ersetzen wird, während die Forschung in diesem Bereich davon ausgeht, dass derartige Systeme für lange Zeit lediglich ergänzend zur menschlichen Tätigkeit stattfinden.<Footnote i={2} desc="Vgl. Adorno, M. et al. (2020), S. 67 f."/>
 											{' '}
-											Während im Bereich der Wirtschaft Machine Learning Prozessunterstützend angewandt wird und damit der Erhöhung der Effizienz dienen soll, gibt es zunehmend gesellschaftliche Bereiche in denen Machine Learning genutzt wird.<Footnote i={3} desc="Vgl. Liu, H.; Gegov, A.; Cocea, M. (72016), p. 588"/>
+											Während im Bereich der Wirtschaft Machine Learning Prozessunterstützend angewandt wird und damit der Erhöhung der Effizienz dienen soll, gibt es zunehmend gesellschaftliche Bereiche in denen Machine Learning genutzt wird.<Footnote i={3} desc="Vgl. Liu, H.; Gegov, A.; Cocea, M. (2016), S. 588"/>
 											<br/>
 
 											Hierbei werden Schwachstellen der KIs hinsichtlich des Umgangs mit Menschen aufgedeckt.
@@ -68,7 +72,7 @@ export class MLUsecaseComponent extends Component {
 											{' '}
 											Es wurde festgestellt, das Lebensmittel aus gewissen Regionen für gewisse Einkommensklassen vermehrt falsch zugeordnet wurden.
 											{' '}
-											Während die Erkennung in Ländern und Regionen mit hohem Einkommen sehr treffsicher war, wurden Lebensmittel in anderen Regionen häufig falsch zugeordnet.<Footnote i={5} desc="Vgl. DeVries, T. et al. (2019), pp. 52–53."/>
+											Während die Erkennung in Ländern und Regionen mit hohem Einkommen sehr treffsicher war, wurden Lebensmittel in anderen Regionen häufig falsch zugeordnet.<Footnote i={5} desc="Vgl. DeVries, T. et al. (2019), S. 52 f."/>
 											{' '}
 											Das Prinzip ist auch hierbei dasselbe, wie auch bei Amazons Bewerbungstool. Das System lernt von bestehenden Daten.
 											{' '}
@@ -82,16 +86,55 @@ export class MLUsecaseComponent extends Component {
 											{' '}
 											Dieses Tool wird zur Risikoeinschätzung genutzt und soll bei der Entscheidung von Richtern über die Freilassung von Häftlingen miteinbezogen werden.
 											{' '}
-											Zum einen stellte sich bei einer Studie heraus das die Übereinstimmung der KI mit den tatsächlichen Rückfallquoten nur bei 20% liegt.<Footnote i={5} desc="Vgl. Northpoint Inc. (2021), https://www.documentcloud.org/documents/2840784-Practitioner-s-Guide-to-COMPAS-Core.html#document/p30/a296482 (status as of June 21, 2021)"/>
+											Zum einen stellte sich bei einer Studie heraus das die Übereinstimmung der KI mit den tatsächlichen Rückfallquoten nur bei 20% liegt.<Footnote i={5} desc="Vgl. Northpoint Inc. (2021)"/>
 											{' '}
-											Zum anderen und hier liegt das Hauptproblem dieser KI: sie unterscheidet basierend auf ethnischen Merkmalen der StraftäterInnen und schätzt das Risiko für Rückfälligkeit bei People-of-Color grundsätzlich höher ein, als das weißer StraftäterInnen. <Footnote i={5} desc="Vgl. Julia Angwin, Jeff Larson, Surya Mattu and Lauren Kirchner (2016), https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing (status as of May 25, 2021)."/>
+											Zum anderen und hier liegt das Hauptproblem dieser KI: sie unterscheidet basierend auf ethnischen Merkmalen der StraftäterInnen und schätzt das Risiko für Rückfälligkeit bei People-of-Color grundsätzlich höher ein, als das weißer StraftäterInnen. <Footnote i={5} desc="Vgl. Angwin, J./Larson, J./Kirchner, L./Mattu, S. (2016)"/>
 											{' '}
 
 										</p>
 										<br/>
-										<img src="./prisoner.jpeg" alt="Prisoner"/>
+										<div className="container w-100">
+											<div className="row">
 
-										<p>Abbildung 1: Rückfälligkeits-Bewertung im Vergleich zweier StraftäterInnen<Footnote i={7} desc="fehlt"/></p>
+												<div className="col-md-4 offset-md-4">
+													<img src={prisoner} alt="Prisoner" className="w-100"/>
+
+												</div>
+											</div>
+											<div className="row">
+												<div className="col-md-10 offset-md-1">
+													<p className="mt-3">Abbildung 1: Rückfälligkeits-Bewertung im Vergleich zweier StraftäterInnen<Footnote i={7} desc="fehlt"/></p>
+												</div>
+											</div>
+
+											<div className="row pt-3">
+
+												<div className="col-md-4 offset-md-4">
+													<RiskWhite/>
+
+												</div>
+											</div>
+											<div className="row">
+												<div className="col-md-10 offset-md-1">
+													<p className="mt-3">Abbildung 2: Bewertung im Schnitt bei kaukasisch/weißen Personen<Footnote i={8} desc="Vgl. Angwin, J./Larson, J./Kirchner, L./Mattu, S. (2016)"/></p>
+												</div>
+											</div>
+
+											<div className="row pt-3">
+
+												<div className="col-md-4 offset-md-4">
+													<RiskBlack/>
+
+												</div>
+											</div>
+											<div className="row">
+												<div className="col-md-10 offset-md-1">
+													<p className="mt-3">Abbildung 3: Bewertung im Schnitt bei maximalpigmentierten Personen<Footnote i={9} desc="Vgl. Angwin, J./Larson, J./Kirchner, L./Mattu, S. (2016)"/></p>
+												</div>
+											</div>
+
+										</div>
+
 										{getFooter(getFootnotes)}
 									</div>
 								)}
