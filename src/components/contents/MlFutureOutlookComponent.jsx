@@ -10,9 +10,7 @@ export class MLFutureOutlookComponent extends Component {
 
 				<div className="inhalt3 shadow-sm">
 
-					<TextExpandable title="Anwendungsszenarien" length="900">
-						
-					</TextExpandable>
+					<TextExpandable title="Anwendungsszenarien" length="900"/>
 				</div>
 			</>
 		);
