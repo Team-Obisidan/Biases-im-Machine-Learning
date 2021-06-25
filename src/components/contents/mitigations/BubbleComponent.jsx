@@ -1,5 +1,5 @@
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import React, {Component, Fragment} from 'react';
+import React, {Component} from 'react';
 import {faYoutube} from '@fortawesome/free-brands-svg-icons';
 import {youtubeAlert} from '../YoutubeAlert.jsx';
 

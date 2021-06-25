@@ -1,4 +1,4 @@
-import React, {Component, Fragment} from 'react';
+import React, {Component} from 'react';
 import {TextExpandable} from './expandables/TextExpandable.jsx';
 export class MLFutureOutlookComponent extends Component {
 	render() {
