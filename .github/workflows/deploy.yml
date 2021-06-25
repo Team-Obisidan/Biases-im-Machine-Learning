@@ -45,9 +45,7 @@ jobs:
       - name: Move to Github Pages
         run: |
           cd build
-          find . -name '*.html' -exec cp --parents \{\} ../docs \;
-          find . -name '*.css' -exec cp --parents \{\} ../docs \;
-          find . -name '*.js' -exec cp --parents \{\} ../docs \;
+          find . -name '*.*' -exec cp --parents \{\} ../docs \;
 
       - name: Deploy 
         uses: JamesIves/github-pages-deploy-action@4.1.1

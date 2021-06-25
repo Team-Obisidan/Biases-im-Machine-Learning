@@ -1,5 +1,15 @@
 # Biases-im-Machine-Learning [![Deployment to Github Pages](https://github.com/Team-Obisidan/Biases-im-Machine-Learning/actions/workflows/deploy.yml/badge.svg?branch=dev)](https://github.com/Team-Obisidan/Biases-im-Machine-Learning/actions/workflows/deploy.yml) [![Abgegeben](https://img.shields.io/badge/Abgegeben-nein-red)](https://dhbw-stuttgart.de) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/xojs/xo)
 
+## Authors
+<a href="https://www.linkedin.com/in/sebastian-ciornei-98430018a/" target="_blank" className="name-link" rel="noreferrer">Sebastian Ciornei</a>,
+
+<a href="https://www.linkedin.com/in/tom-dott-57a52a1b6/" target="_blank" className="name-link" rel="noreferrer">Tom Dott</a>,
+
+<a href="https://www.linkedin.com/in/lukas-fruntke/" target="_blank" className="name-link" rel="noreferrer">Lukas Fruntke</a>,
+
+<a href="https://www.linkedin.com/in/oliver-groh-a8295b206/" target="_blank" className="name-link" rel="noreferrer">Oliver Groh</a>,
+
+<a href="#" target="https://www.linkedin.com/in/maik-pascal-ruoff-945a18214/" className="name-link" rel="noreferrer">Maik Ruoff</a>
 ## Package credits/licenses
 See `licenses.txt`.  
 Summary by `license-checker`:
