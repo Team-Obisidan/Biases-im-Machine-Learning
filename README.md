@@ -4,10 +4,10 @@
 See `licenses.txt`.  
 Summary by `license-checker`:
 ```
-├─ MIT: 1363
-├─ ISC: 102
+├─ MIT: 1325
+├─ ISC: 100
 ├─ BSD-2-Clause: 38
-├─ BSD-3-Clause: 33
+├─ BSD-3-Clause: 32
 ├─ CC0-1.0: 29
 ├─ Apache-2.0: 26
 ├─ (MIT OR CC0-1.0): 7
@@ -16,7 +16,6 @@ Summary by `license-checker`:
 ├─ 0BSD: 2
 ├─ (MIT OR Apache-2.0): 1
 ├─ MPL-2.0: 1
-├─ UNLICENSED: 1
 ├─ CC-BY-4.0: 1
 ├─ GPL-3.0-or-later OR MIT: 1
 ├─ BSD*: 1
@@ -25,7 +24,6 @@ Summary by `license-checker`:
 ├─ (BSD-3-Clause OR GPL-2.0): 1
 ├─ (MIT AND Zlib): 1
 ├─ (WTFPL OR MIT): 1
-├─ (BSD-2-Clause OR MIT OR Apache-2.0): 1
 ├─ MIT*: 1
 ├─ (MIT AND BSD-3-Clause): 1
 └─ CC-BY-3.0: 1
