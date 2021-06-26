@@ -10,6 +10,8 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '14'
+          registry-url: https://npm.pkg.github.com
+          scope: '@team-obisidan'
       - name: Cache node modules
         uses: actions/cache@v2
         env:
@@ -25,6 +27,8 @@ jobs:
 
       - name: Install Dependencies
         run: npm install
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
       - name: Run Test
         run: |
           npm run test

@@ -1,13 +1,23 @@
 # Biases-im-Machine-Learning [![Deployment to Github Pages](https://github.com/Team-Obisidan/Biases-im-Machine-Learning/actions/workflows/deploy.yml/badge.svg?branch=dev)](https://github.com/Team-Obisidan/Biases-im-Machine-Learning/actions/workflows/deploy.yml) [![Abgegeben](https://img.shields.io/badge/Abgegeben-nein-red)](https://dhbw-stuttgart.de) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/xojs/xo)
 
+## Authors
+<a href="https://www.linkedin.com/in/sebastian-ciornei-98430018a/" target="_blank" className="name-link" rel="noreferrer">Sebastian Ciornei</a>,
+
+<a href="https://www.linkedin.com/in/tom-dott-57a52a1b6/" target="_blank" className="name-link" rel="noreferrer">Tom Dott</a>,
+
+<a href="https://www.linkedin.com/in/lukas-fruntke/" target="_blank" className="name-link" rel="noreferrer">Lukas Fruntke</a>,
+
+<a href="https://www.linkedin.com/in/oliver-groh-a8295b206/" target="_blank" className="name-link" rel="noreferrer">Oliver Groh</a>,
+
+<a href="#" target="https://www.linkedin.com/in/maik-pascal-ruoff-945a18214/" className="name-link" rel="noreferrer">Maik Ruoff</a>
 ## Package credits/licenses
 See `licenses.txt`.  
 Summary by `license-checker`:
 ```
-├─ MIT: 1363
-├─ ISC: 102
+├─ MIT: 1325
+├─ ISC: 100
 ├─ BSD-2-Clause: 38
-├─ BSD-3-Clause: 33
+├─ BSD-3-Clause: 32
 ├─ CC0-1.0: 29
 ├─ Apache-2.0: 26
 ├─ (MIT OR CC0-1.0): 7
@@ -16,7 +26,6 @@ Summary by `license-checker`:
 ├─ 0BSD: 2
 ├─ (MIT OR Apache-2.0): 1
 ├─ MPL-2.0: 1
-├─ UNLICENSED: 1
 ├─ CC-BY-4.0: 1
 ├─ GPL-3.0-or-later OR MIT: 1
 ├─ BSD*: 1
@@ -25,7 +34,6 @@ Summary by `license-checker`:
 ├─ (BSD-3-Clause OR GPL-2.0): 1
 ├─ (MIT AND Zlib): 1
 ├─ (WTFPL OR MIT): 1
-├─ (BSD-2-Clause OR MIT OR Apache-2.0): 1
 ├─ MIT*: 1
 ├─ (MIT AND BSD-3-Clause): 1
 └─ CC-BY-3.0: 1

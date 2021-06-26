@@ -32,10 +32,12 @@
   "private": true,
   "dependencies": {
     "@fontsource/roboto": "^4.4.5",
+    "@fontsource/roboto-slab": "^4.4.5",
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
     "@fortawesome/free-brands-svg-icons": "^5.15.3",
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
     "@fortawesome/react-fontawesome": "^0.1.14",
+    "@team-obisidan/react-footnotes": "0.2.0",
     "@testing-library/jest-dom": "^5.13.0",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
@@ -44,7 +46,6 @@
     "react": "^17.0.2",
     "react-bootstrap": "^1.6.1",
     "react-dom": "^17.0.2",
-    "react-footnotes": "^0.1.2",
     "react-scripts": "4.0.3",
     "sweetalert2": "^11.0.16",
     "sweetalert2-react-content": "^4.0.1",
@@ -90,6 +91,6 @@
   },
   "devDependencies": {
     "eslint-config-xo-react": "^0.25.0",
-    "xo": "^0.40.2"
+    "xo": "^0.40.3"
   }
 }

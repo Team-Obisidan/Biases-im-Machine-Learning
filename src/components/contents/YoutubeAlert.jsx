@@ -1,8 +1,8 @@
 
-import React, {Fragment} from 'react';
+import React from 'react';
 import Swal from 'sweetalert2';
 import withReactContent from 'sweetalert2-react-content';
-import {Footnotes} from 'react-footnotes';
+import {Footnotes} from '@team-obisidan/react-footnotes';
 import {YouTubeExpandable} from './expandables/YouTubeExpandable.jsx';
 const MySwal = withReactContent(Swal);
 
