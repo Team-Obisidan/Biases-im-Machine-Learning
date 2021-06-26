@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {BubbleComponent} from './contents/mitigations/BubbleComponent.jsx';
 import {IndustrialComponent} from './contents/mitigations/IndustrialComponent.jsx';
+import {MitiBasicsComponent} from './contents/mitigations/MitiBasicsComponent.jsx';
 import {OrganisationalComponent} from './contents/mitigations/OrganisationalComponent.jsx';
 import {SocietalComponent} from './contents/mitigations/SocietalComponent.jsx';
 
@@ -15,6 +16,9 @@ export class MitigationComponent extends Component {
 								<div className="textmiti col-lg-8">
 									<div className="überschrift2 shadow-sm">
 										<h2>Mitigation von Biases in ML</h2>
+									</div>
+									<div className="miti-basics shadow-sm">
+										<MitiBasicsComponent/>
 									</div>
 									<div className="inter-lvl">
 
