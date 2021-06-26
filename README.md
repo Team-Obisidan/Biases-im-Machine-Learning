@@ -9,7 +9,7 @@
 
 <a href="https://www.linkedin.com/in/oliver-groh-a8295b206/" target="_blank" className="name-link" rel="noreferrer">Oliver Groh</a>,
 
-<a href="#" target="https://www.linkedin.com/in/maik-pascal-ruoff-945a18214/" className="name-link" rel="noreferrer">Maik Ruoff</a>
+<a href="https://www.linkedin.com/in/maik-pascal-ruoff-945a18214/" target="_blank" className="name-link" rel="noreferrer">Maik Ruoff</a>
 ## Package credits/licenses
 See `licenses.txt`.  
 Summary by `license-checker`:
