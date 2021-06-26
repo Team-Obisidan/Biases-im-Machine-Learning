@@ -108,7 +108,7 @@ align-items: center;
 .where{
   margin: 2%;
   width: 100%;
-  height: 694px;
+  height: 494px;
   background: rgba(167,192,205,1);
   opacity: 1;
   -position: absolute;
@@ -120,7 +120,7 @@ align-items: center;
 
 .überschrift{
   background-color: #4B636E;
-  height: 10%;
+  height: 65px;
   padding: 10px;
   padding-bottom: 5px;
   border-radius: 4px;
@@ -141,8 +141,8 @@ align-items: center;
   width:  60%;
   border-radius: 4px;
   padding: 10px;
-  height: 86%;
-  margin-top: 2%;
+  height: 84%;
+  margin-top: 12px;
   margin-bottom: 2%;
   overflow: scroll;
 }
@@ -153,8 +153,8 @@ align-items: center;
   background-color: #fff;
   border-radius: 4px;
   padding: 10px;
-  height: 86%;
-  margin-top: 2%;
+  height: 84%;
+  margin-top: 12px;
   margin-bottom: 2%;
   margin-left: 3%;
   overflow: scroll;
@@ -163,7 +163,7 @@ align-items: center;
 .future{
   margin: 2%;
   width: 100%;
-  height: 694px;
+  height: 494px;
   background: rgba(167,192,205,1);
 
   opacity: 1;
@@ -179,8 +179,8 @@ align-items: center;
   width: 100%;
   border-radius: 4px;
   padding: 10px;
-  height: 86%;
-  margin-top: 3%;
+  height: 84%;
+  margin-top: 12px;
   margin-bottom: 2%;
   overflow: scroll;
 }
@@ -194,7 +194,7 @@ align-items: center;
   margin: 2%;
   margin-top: 0px;
   width: 100%;
-  height: 444px;
+  height: 644px;
   background: rgba(167,192,205,1);
   opacity: 1;
   -position: absolute;
@@ -216,41 +216,50 @@ align-items: center;
   color: #fff;
 }
 
-
-.inhalt4 {
+.miti-basics{
   float: left;
-  width: 31%;
   background-color: #fff;
   border-radius: 4px;
   padding: 10px;
-  height: 312px;
-  margin-top: 2%;
+  height: 310px;
+  margin-top: 12px;
+  overflow: scroll;
+}
+
+.inhalt4 {
+  float: left;
+  width: 32%;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 10px;
+  height: 212px;
+  margin-top: 12px;
   margin-bottom: 2%;
-  margin-right: 20px;
+  margin-right: 13px;
   overflow: scroll;
 }
 .inhalt5 {
   float: left;
-  width: 31%;
+  width: 32%;
   background-color: #fff;
   border-radius: 4px;
   padding: 10px;
-  height: 312px;
-  margin-top: 2%;
+  height: 212px;
+  margin-top: 12px;
   margin-bottom: 2%;
-  margin-right: 20px;
+  margin-right: 13px;
   overflow: scroll;
 }
 
 
 .inhalt6{
   float: left;
-  width: 31%;
+  width: 32%;
   background-color: #fff;
   border-radius: 4px;
   padding: 10px;
-  height: 312px;
-  margin-top: 2%;
+  height: 212px;
+  margin-top: 12px;
   margin-bottom: 2%;
   margin-right: 0px;
   overflow: scroll;
@@ -268,8 +277,8 @@ align-items: center;
 .kreis1{
     background-color: #66BB6A;
     -position: absolute;
-    width: 190px;
-    height: 190px;
+    width: 230px;
+    height: 230px;
     border-radius: 50%;
     display: inline-block;
     border: 2px solid black;
@@ -280,8 +289,8 @@ align-items: center;
 .kreis2{
   background-color:#FFCA28;
   -position: absolute;
-  width: 190px;
-  height: 190px;
+  width: 230px;
+  height: 230px;
   border-radius: 50%;
   display: inline-block;
   border: 2px solid black;
