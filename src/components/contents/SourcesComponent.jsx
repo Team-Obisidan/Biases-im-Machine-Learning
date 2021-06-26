@@ -9,7 +9,7 @@ export class SourcesComponent extends Component {
 		return (
 
 			<div className="quellen1">
-				<h6>Videos und Quellen:</h6>
+				<h6 onClick={() => youtubeAlert()}>Videos und Quellen:</h6>
 				<div className="quellen2 ">
 					<span className="green-span useme" onClick={() => youtubeAlert()}>
 						<FontAwesomeIcon icon={faYoutube} size="5x"/>
