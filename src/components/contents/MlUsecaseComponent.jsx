@@ -17,7 +17,7 @@ export class MLUsecaseComponent extends Component {
 
 					<div className="inhalt1 shadow-sm">
 
-						<TextExpandable title="Bereiche" length="1000">
+						<TextExpandable title="Bereiche" length="1000" iconHtml="🕮" iconColor="black">
 							<Footnotes>
 								{({Footnote, getFootnotes}) => (
 									<div style={{textAlign: 'left'}}>
@@ -47,7 +47,7 @@ export class MLUsecaseComponent extends Component {
 
 					<div className="inhalt2 shadow-sm">
 
-						<TextExpandable title="Beispiele">
+						<TextExpandable title="Beispiele" iconHtml="🕮" iconColor="black">
 							<Footnotes>
 								{({Footnote, getFootnotes}) => (
 									<div style={{textAlign: 'left'}}>

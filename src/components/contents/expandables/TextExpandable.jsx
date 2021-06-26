@@ -4,7 +4,7 @@ import {AbstractTextExpandable} from './AbstractTextExpandable.jsx';
 export const TextExpandable = props => {
 	return (
 
-		<AbstractTextExpandable>
+		<AbstractTextExpandable title={props.title} iconHtml={props.iconHtml} iconColor={props.iconColor}>
 			<h4>{props.title}</h4>
 			<p>
 				{typeof props.children === 'string' ? trunc(props.children, props.length) : props.children}
