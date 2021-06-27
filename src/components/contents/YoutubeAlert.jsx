@@ -6,10 +6,10 @@ import {Footnotes} from '@team-obisidan/react-footnotes';
 import {YouTubeExpandable} from './expandables/YouTubeExpandable.jsx';
 const MySwal = withReactContent(Swal);
 
-export function youtubeAlert(title = 'Never gonna give you up', iconColor = '#c79a00', slug = 'dQw4w9WgXcQ', iconHtml = '😁') {
+export function youtubeAlert(title = 'Never gonna give you up', iconColor = '#c79a00', slug = 'dQw4w9WgXcQ', iconHtml = '😁', rickMode = true) {
 	MySwal.fire({
 		title,
-		html: getBody(slug),
+		html: rickMode ? getBody(slug) : getNormalBody(slug),
 		iconColor,
 		iconHtml,
 		showCloseButton: true,
@@ -24,6 +24,9 @@ export function youtubeAlert(title = 'Never gonna give you up', iconColor = '#c7
 	});
 }
 
+function getNormalBody(slug){
+	return(<YouTubeExpandable slug={slug} autoplay={true}/>)
+}
 function getBody(slug) {
 	return (
 		<Footnotes>

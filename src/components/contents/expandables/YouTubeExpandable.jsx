@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const YouTubeExpandable = ({slug = 'dQw4w9WgXcQ', title = 'Never gonny give you up', autoplay = false}) => {
+export const YouTubeExpandable = ({slug = 'dQw4w9WgXcQ', title = 'Never gonna give you up', autoplay = false}) => {
 	return (
 		<iframe
 			allowFullScreen
