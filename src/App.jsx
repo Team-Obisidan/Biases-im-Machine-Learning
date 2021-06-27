@@ -1,4 +1,4 @@
-import { youtubeAlert } from 'components/contents/YoutubeAlert';
+import {youtubeAlert} from 'components/contents/YoutubeAlert';
 import {FeatureComponent} from 'components/FeatureComponent';
 import {FurtherLearningComponent} from 'components/FurtherLearningComponent';
 import {HeaderComponent} from 'components/HeaderComponent';
@@ -8,7 +8,7 @@ import React from 'react';
 import './App.css';
 
 const App = () => {
-	youtubeAlert('Einführungsvideo', 'blue','dVG-f74wkMQ', '🔵', false)
+	youtubeAlert('Einführungsvideo', 'blue', 'dVG-f74wkMQ', '🔵', false);
 	return (
 		<div className="poster">
 

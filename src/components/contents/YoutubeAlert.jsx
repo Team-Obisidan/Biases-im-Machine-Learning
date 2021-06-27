@@ -24,95 +24,96 @@ export function youtubeAlert(title = 'Never gonna give you up', iconColor = '#c7
 	});
 }
 
-function getNormalBody(slug){
-	return(<YouTubeExpandable slug={slug} autoplay={true}/>)
+function getNormalBody(slug) {
+	return (<YouTubeExpandable autoplay slug={slug}/>);
 }
+
 function getBody(slug) {
 	return (
 		<Footnotes>
 			{({Footnote, getFootnotes}) => (
 				<>
-				<YouTubeExpandable slug={slug} autoplay={true}/>
+					<YouTubeExpandable autoplay slug={slug}/>
 					<Footnote i={1} desc="Vgl. Astley 1987">
-						Oooh <br />
-						We're no strangers to love<br />
-						You know the rules and so do I<br />
-						A full commitment's what I'm thinking of<br />
-						You wouldn't get this from any other guy<br />
-						<br />
-						I just wanna tell you how I'm feeling<br />
-						Gotta make you understand<br />
-						<br />
-						Never gonna give you up<br />
-						Never gonna let you down<br />
-						Never gonna run around and desert you<br />
-						Never gonna make you cry<br />
-						Never gonna say goodbye<br />
-						Never gonna tell a lie and hurt you<br />
-						<br />
-						We've known each other for so long<br />
-						Your heart's been aching, but you're too shy to say it<br />
-						Inside, we both know what's been going on<br />
-						We know the game and we're gonna play it<br />
-						<br />
-						And if you ask me how I'm feeling<br />
-						Don't tell me you're too blind to see<br />
+						Oooh <br/>
+						We&apos;re no strangers to love<br/>
+						You know the rules and so do I<br/>
+						A full commitment&apos;s what I&apos;m thinking of<br/>
+						You wouldn&apos;t get this from any other guy<br/>
+						<br/>
+						I just wanna tell you how I&apos;m feeling<br/>
+						Gotta make you understand<br/>
+						<br/>
+						Never gonna give you up<br/>
+						Never gonna let you down<br/>
+						Never gonna run around and desert you<br/>
+						Never gonna make you cry<br/>
+						Never gonna say goodbye<br/>
+						Never gonna tell a lie and hurt you<br/>
+						<br/>
+						We&apos;ve known each other for so long<br/>
+						Your heart&apos;s been aching, but you&apos;re too shy to say it<br/>
+						Inside, we both know what&apos;s been going on<br/>
+						We know the game and we&apos;re gonna play it<br/>
+						<br/>
+						And if you ask me how I&apos;m feeling<br/>
+						Don&apos;t tell me you&apos;re too blind to see<br/>
 
-						Never gonna give you up<br />
-						Never gonna let you down<br />
-						Never gonna run around and desert you<br />
-						Never gonna make you cry<br />
-						Never gonna say goodbye<br />
-						Never gonna tell a lie and hurt you<br />
-						<br />
-						Never gonna give you up<br />
-						Never gonna let you down<br />
-						Never gonna run around and desert you<br />
-						Never gonna make you cry<br />
-						Never gonna say goodbye<br />
-						Never gonna tell a lie and hurt you<br />
-						<br />
-						<br />
-						(Ooh, give you up)<br />
-						(Ooh, give you up)<br />
-						<br />
-						Never gonna give, never gonna give<br />
-						<br />
-						(Give you up)<br />
-						<br />
-						Never gonna give, never gonna give<br />
-						<br />
-						(Give you up)<br />
-						<br />
-						<br />
-						We've known each other for so long<br />
-						Your heart's been aching, but you're too shy to say it<br />
-						Inside, we both know what's been going on<br />
-						We know the game and we're gonna play it<br />
-						<br />
-						I just wanna tell you how I'm feeling<br />
-						Gotta make you understand<br />
-						<br />
-						Never gonna give you up<br />
-						Never gonna let you down<br />
-						Never gonna run around and desert you<br />
-						Never gonna make you cry<br />
-						Never gonna say goodbye<br />
-						Never gonna tell a lie and hurt you<br />
-						<br />
-						Never gonna give you up<br />
-						Never gonna let you down<br />
-						Never gonna run around and desert you<br />
-						Never gonna make you cry<br />
-						Never gonna say goodbye<br />
-						Never gonna tell a lie and hurt you<br />
-						<br />
-						Never gonna give you up<br />
-						Never gonna let you down<br />
-						Never gonna run around and desert you<br />
-						Never gonna make you cry<br />
-						Never gonna say goodbye<br />
-						Never gonna tell a lie and hurt you<br />
+						Never gonna give you up<br/>
+						Never gonna let you down<br/>
+						Never gonna run around and desert you<br/>
+						Never gonna make you cry<br/>
+						Never gonna say goodbye<br/>
+						Never gonna tell a lie and hurt you<br/>
+						<br/>
+						Never gonna give you up<br/>
+						Never gonna let you down<br/>
+						Never gonna run around and desert you<br/>
+						Never gonna make you cry<br/>
+						Never gonna say goodbye<br/>
+						Never gonna tell a lie and hurt you<br/>
+						<br/>
+						<br/>
+						(Ooh, give you up)<br/>
+						(Ooh, give you up)<br/>
+						<br/>
+						Never gonna give, never gonna give<br/>
+						<br/>
+						(Give you up)<br/>
+						<br/>
+						Never gonna give, never gonna give<br/>
+						<br/>
+						(Give you up)<br/>
+						<br/>
+						<br/>
+						We&apos;ve known each other for so long<br/>
+						Your heart&apos;s been aching, but you&apos;re too shy to say it<br/>
+						Inside, we both know what&apos;s been going on<br/>
+						We know the game and we&apos;re gonna play it<br/>
+						<br/>
+						I just wanna tell you how I&apos;m feeling<br/>
+						Gotta make you understand<br/>
+						<br/>
+						Never gonna give you up<br/>
+						Never gonna let you down<br/>
+						Never gonna run around and desert you<br/>
+						Never gonna make you cry<br/>
+						Never gonna say goodbye<br/>
+						Never gonna tell a lie and hurt you<br/>
+						<br/>
+						Never gonna give you up<br/>
+						Never gonna let you down<br/>
+						Never gonna run around and desert you<br/>
+						Never gonna make you cry<br/>
+						Never gonna say goodbye<br/>
+						Never gonna tell a lie and hurt you<br/>
+						<br/>
+						Never gonna give you up<br/>
+						Never gonna let you down<br/>
+						Never gonna run around and desert you<br/>
+						Never gonna make you cry<br/>
+						Never gonna say goodbye<br/>
+						Never gonna tell a lie and hurt you<br/>
 					</Footnote>
 					<hr/>
 					{getFooter(getFootnotes)}
