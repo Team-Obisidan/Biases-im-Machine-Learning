@@ -12,6 +12,8 @@ export class FeatureComponent extends Component {
 			<div className="theorie">
 				<div className="container">
 					<div className="row">
+					<div className="theo-box">
+							<div className="row">
 						<div className="th-topic col-lg-4">
 							<h2 style={{textShadow: '1px 2px rgba(0, 0, 0, 0.175)'}}>ML</h2>
 
@@ -29,24 +31,31 @@ export class FeatureComponent extends Component {
 										{({Footnote, getFootnotes}) => (
 											<div style={{textAlign: 'left'}}>
 												<p>
+												Durch KI können Maschinen menschliche Fähigkeiten und Verhaltensweisen wie das Wahrnehmen, das Sprachverstehen, Lernen, etc. nachbilden.<Footnote i={1} desc="Vgl. Gentsch 2018, S. 17 f."/>  
+												{" "}
+												Mittels intelligenten Algorithmen, welche Daten analysieren und auswerten, können „selbständige“ Handlungen aus den Analyseergebnissen abgeleitet und durchgeführt werden.<Footnote i={2} desc="Vgl. Gentsch 2018, S. 13"/> 
+												<br />
+												<br />
 													KI und Machine Learning hängen zwar eng zusammen, dürfen aber nicht als Synonyme verwendet werden.
 													Die Begrifflichkeiten lassen sich dabei wie folgt abgrenzen:
 													<ul>
 														<li>KI definiert die Herausforderungen und entwickelt die zugehörigen Lösungsansätze.</li>
 														<li>Machine Learning ist eine Methode der KI und zielt darauf ab, dass Maschinen automatisiert sinnvolle Ergebnisse liefern, ohne dass der Lösungsweg bzw. die Lösung explizit programmiert ist.</li>
-														<li>Algorithmen lernen aus vorliegenden Testdaten Modelle, die auf weitere (neue) Daten angewendet werden können.<Footnote i={1} desc="Vgl. Kersting/Tresp 2018, S. 1"/></li>
+														<li>Algorithmen lernen aus vorliegenden Testdaten Modelle, die auf weitere (neue) Daten angewendet werden können.<Footnote i={3} desc="Vgl. Kersting/Tresp 2018, S. 1"/></li>
 													</ul>
 												</p>
 
 												<YouTubeExpandable title="Was ist maschinelles Lernen?" slug="KcnzihaSxgg"/>
 												<p>
-													Machine Learning ist demnach ein wichtiges Teilgebiet der KI und beschreibt wie Maschinen das Lernen lernen.<Footnote i={2} desc="Vgl. Welsch/Eitle/Buxmann 2018, S. 370"/>
+													Machine Learning ist demnach ein wichtiges Teilgebiet der KI und beschreibt wie Maschinen das Lernen lernen.<Footnote i={4} desc="Vgl. Welsch/Eitle/Buxmann 2018, S. 370"/>
 													{' '}
 													Machine Learning umfasst im Allgemeinen Methoden, die mithilfe von Lernprozessen Zusammenhänge in bestehenden Datensätzen erkennen.
-													Auf diesen Zusammenhängen basierend werden dann Vorhersagen getroffen.<Footnote i={3} desc="Vgl. Welsch/Eitle/Buxmann 2018, S. 370"/>
+													Auf diesen Zusammenhängen basierend werden dann Vorhersagen getroffen.<Footnote i={5} desc="Vgl. Welsch/Eitle/Buxmann 2018, S. 370"/>
 													{' '}
 													Dabei lernt das Modell über Algorithmen „selbst“ und kann auf Basis existierender Daten Rückschlüsse ziehen, ohne dass diese Rückschlüsse genau programmiert sind.
-													Die Grundlage für das maschinelle Lernen stellen demnach Algorithmen und Trainingsdaten dar.<Footnote i={4} desc="Vgl. Welsch/Eitle/Buxmann 2018, S. 371"/>
+													Die Grundlage für das maschinelle Lernen stellen demnach Algorithmen und Trainingsdaten dar.<Footnote i={6} desc="Vgl. Welsch/Eitle/Buxmann 2018, S. 371"/>
+													<br />
+													Die Algorithmen, welche in ML verwendet werden, lassen sich in drei Kategorien einteilen: Supervised Learning, Unsupervised Learning und Reinforcement Learning.<Footnote i={7} desc="Vgl. Weber 2020, S. 39"/> 
 												</p>
 
 												{getFooter(getFootnotes, "WasIstML")}
@@ -145,7 +154,7 @@ export class FeatureComponent extends Component {
 													{' '}
 													Bspw. ergeben Testdaten, dass nur 28,4 % der Frauen Führungskräfte besetzen.
 													{' '}
-													Infolgedessen schlägt die KI Frauen weniger „gute“ Stellen vor. Frauen werden demnach benachteiligt, obwohl die Testdaten keinen Fehler als solchen haben, sondern die historische Realität widerspiegeln.<Footnote i={15} desc="Vgl. Suresh/Guttag 2020, S. 4 f."/><sup>,</sup><Footnote i={16} desc="Vgl. Mehrabi/Morstatter/Saxena/Lerman/Galstyan 2019, S. 4 ff."/>
+													Infolgedessen schlägt die KI Frauen weniger „gute“ Stellen vor. Frauen werden demnach benachteiligt, obwohl die Testdaten keinen Fehler als solchen haben, sondern die historische Realität widerspiegeln.<Footnote i={16} desc="Vgl. Suresh/Guttag 2020, S. 4 f."/><sup>,</sup><Footnote i={17} desc="Vgl. Mehrabi/Morstatter/Saxena/Lerman/Galstyan 2019, S. 4 ff."/>
 													{' '}
 												</p>
 												{getFooter(getFootnotes, "Biases")}
@@ -175,7 +184,7 @@ export class FeatureComponent extends Component {
 													{' '}
 													Die Komplexität des Begriffes lässt sich nach dieser Definition schon erahnen.<Footnote i={1} desc="Vgl. Schäfers 2018, S. 141"/>
 													{' '}
-													Im heutigen Verständnis sprechen wir bei einer Gesellschaft von menschlichem Zusammenleben.<Footnote i={2} desc="Vgl. Schäfers 2018, S. 141 "/>
+													Im heutigen Verständnis sprechen wir bei einer Gesellschaft von menschlichem Zusammenleben.<Footnote i={2} desc="Vgl. Schäfers 2018, S. 142 "/>
 													{' '}
 												</p>
 
@@ -192,12 +201,40 @@ export class FeatureComponent extends Component {
 													Fundamentale Dynamiken treffen in dem menschlichen Bestehen zusammen:<Footnote i={5} desc="Vgl. Krossa 2018, S. 9 f."/> <span className="font-italic">&bdquo;die</span> [Dynamiken] <span className="font-italic">zwischen Kollektiven und Individuen, zwischen dem Universalen und dem Partikularen, zwischen Übereinstimmung und Unterschiedlichkeit&ldquo;</span>.<Footnote i={6} desc="Krossa 2018. S. 9"/>
 													{' '}
 												</p>
+												<p>
+													Die Schwierigkeiten der Begriffsdefinition spiegeln sich in den realen, gesellschaftlichen Herausforderungen wider. 
+													Ein großes Thema ist dabei die soziale Ungleichheit. Von sozialer Ungleichheit wird gesprochen, wenn Menschen, welche eine bestimmte Zugehörigkeit zu einer sozialen Kategorie haben, unterschiedliche Zugänge zu sozialen Positionen haben. 
+													
+													Diese sozialen Positionen wirken sich dabei positiv oder negativ auf die Handlungs- und Lebensbedingungen aus.<Footnote i={6} desc="Vgl. Solga/Powell/Berger 2009, S. 14 f."/> 
+													{" "}
+													Dabei geht es nicht unbedingt um Eigenschaften, die Menschen verschiedenartig machen, wie bspw. Religion, Geschlecht oder Alter, es geht eher um den Zugang zu Ressourcen wie Kapitel, Macht, Bildung oder Einkommen, welche uns „besser“ oder „schlechter“ dastehen lassen.<Footnote i={7} desc="Vgl. Solga/Powell/Berger 2009, S. 14 ff."/>   
+													<br />
+													Beispiele hierfür sind: <br /> Einkommensungleichheiten aufgrund von dem Geschlecht, Ungleiche Risiken in der Arbeitslosigkeit aufgrund der sozialen Herkunft oder ungleiche Risiken zur Armut und Gesundheit durch den erlernten Beruf oder der Bildung.<Footnote i={8} desc="Vgl. Solga/Powell/Berger 2009, S. 20 ff."/>   
+												</p>
+													Eine weitere gesellschaftliche Problematik ist die Diskriminierung.<Footnote i={9} desc="Vgl. Dieckmann 2017, S. 161"/>    
+													{" "}
+													Dabei werden Menschen zu einer homogenen Einheit, durch bestimmte Merkmale wie das Geschlecht oder die Hautfarbe, gruppiert.<Footnote i={10} desc="Vgl. Dieckmann 2017, S. 162 f."/>   
+													{" "}
+													Diskriminierung stellt demnach die Ungleichbehandlung von Menschen dar, welche durch spezifische Merkmale bzw. Zugehörigkeiten dieses Menschen getroffen wird.<Footnote i={11} desc="Vgl. Dieckmann 2017, S. 164 f."/>   
+													<br />
+													Nach Birgit Rommelspacher kann zwischen drei Ebenen von Diskriminierung unterschieden werden: Individuelle Diskriminierung, Institutionelle Diskriminierung und Strukturelle Diskriminierung:<Footnote i={12} desc="Vgl. Dieckmann 2017, S. 165"/>  
+													<br />
+												<p>
+
+												</p>
+												{/* Tabelle einfügen */}
+
+												<p>
+													Bias im maschinellen Lernen betreffen vor allem die Ebenen der <span className="font-weight-bold">institutionellen</span>  und <span className="font-weight-bold">strukturellen</span> Diskriminierung.
+												</p>
 
 												{getFooter(getFootnotes, "WasistGesellschaft")}
 											</div>
 										)}
 									</Footnotes>
 								</AbstractTextExpandable>
+							</div>
+							</div>
 							</div>
 						</div>
 					</div>
