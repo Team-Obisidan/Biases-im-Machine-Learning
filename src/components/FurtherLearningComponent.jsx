@@ -16,20 +16,20 @@ export class FurtherLearningComponent extends Component {
 							<div className="mo-boxen">
 
 								<div className="box1 useme" onClick={() => youtubeAlert()}>
-									<p>text</p>
+									<p>Arten masch. Lernen</p>
 								</div>
 
 								<div className="box2 useme" onClick={() => youtubeAlert()}>
-									<p>text</p>
+									<p>Studie KI</p>
 								</div>
 
-								<div className="box1 useme" onClick={() => youtubeAlert()}/>
+								<div className="box1 useme" onClick={() => youtubeAlert()}>
+									<p>Paper IEEE</p>
+								</div>
 
-								<div className="box2 useme" onClick={() => youtubeAlert()}/>
-
-								<div className="box1 useme" onClick={() => youtubeAlert()}/>
-
-								<div className="box2 useme" onClick={() => youtubeAlert()}/>
+								<div className="box2 useme" onClick={() => youtubeAlert()}>
+									<p>Weitere Beispiele</p>
+								</div>
 
 							</div>
 
