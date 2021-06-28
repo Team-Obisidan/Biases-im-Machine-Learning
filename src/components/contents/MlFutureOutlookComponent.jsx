@@ -1,5 +1,7 @@
+import {Footnotes} from '@team-obisidan/react-footnotes';
+import {getFooter} from 'components/GetFooter.jsx';
 import React, {Component} from 'react';
-import {TextExpandable} from './expandables/TextExpandable.jsx';
+import {AbstractTextExpandable} from './expandables/AbstractTextExpandable.jsx';
 export class MLFutureOutlookComponent extends Component {
 	render() {
 		return (
@@ -9,8 +11,32 @@ export class MLFutureOutlookComponent extends Component {
 				</div>
 
 				<div className="inhalt3 shadow-sm overflow-hidden">
+					<AbstractTextExpandable title="Anwendungsszenarien">
 
-					<TextExpandable title="Anwendungsszenarien" length="900"/>
+						<h4>Anwendungsszenarien</h4>
+						<Footnotes>
+							{({Footnote, getFootnotes}) => (
+								<div style={{textAlign: 'left'}}>
+									<p>
+										1,2, Polizei Benrath u.a.(2018)<Footnote i={1} desc="Vgl. Benrath u.a.(2018)"/>
+									</p>
+									{getFooter(getFootnotes, 'FurtherLearning')}
+								</div>
+							)}
+						</Footnotes>
+
+						<Footnotes>
+							{({Footnote, getFootnotes}) => (
+								<div style={{textAlign: 'left'}}>
+									<p>
+										1,2, Polizei Benrath u.a.(2018)<Footnote i={1} desc="Vgl. Benrath u.a.(2018)"/>
+									</p>
+									{getFooter(getFootnotes, 'FurtherLearning')}
+								</div>
+							)}
+						</Footnotes>
+
+					</AbstractTextExpandable>
 				</div>
 			</>
 		);
