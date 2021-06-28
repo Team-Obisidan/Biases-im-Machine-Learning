@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import { AbstractTextExpandable } from './contents/expandables/AbstractTextExpandable.jsx';
-import { MlTypeComponent } from './contents/further/MlTypeComponent.jsx';
+
 import {SourcesComponent} from './contents/SourcesComponent.jsx';
 import {youtubeAlert} from './contents/YoutubeAlert.jsx';
 

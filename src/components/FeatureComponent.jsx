@@ -205,26 +205,50 @@ export class FeatureComponent extends Component {
 													Die Schwierigkeiten der Begriffsdefinition spiegeln sich in den realen, gesellschaftlichen Herausforderungen wider. 
 													Ein großes Thema ist dabei die soziale Ungleichheit. Von sozialer Ungleichheit wird gesprochen, wenn Menschen, welche eine bestimmte Zugehörigkeit zu einer sozialen Kategorie haben, unterschiedliche Zugänge zu sozialen Positionen haben. 
 													
-													Diese sozialen Positionen wirken sich dabei positiv oder negativ auf die Handlungs- und Lebensbedingungen aus.<Footnote i={6} desc="Vgl. Solga/Powell/Berger 2009, S. 14 f."/> 
+													Diese sozialen Positionen wirken sich dabei positiv oder negativ auf die Handlungs- und Lebensbedingungen aus.<Footnote i={7} desc="Vgl. Solga/Powell/Berger 2009, S. 14 f."/> 
 													{" "}
-													Dabei geht es nicht unbedingt um Eigenschaften, die Menschen verschiedenartig machen, wie bspw. Religion, Geschlecht oder Alter, es geht eher um den Zugang zu Ressourcen wie Kapitel, Macht, Bildung oder Einkommen, welche uns „besser“ oder „schlechter“ dastehen lassen.<Footnote i={7} desc="Vgl. Solga/Powell/Berger 2009, S. 14 ff."/>   
+													Dabei geht es nicht unbedingt um Eigenschaften, die Menschen verschiedenartig machen, wie bspw. Religion, Geschlecht oder Alter, es geht eher um den Zugang zu Ressourcen wie Kapitel, Macht, Bildung oder Einkommen, welche uns „besser“ oder „schlechter“ dastehen lassen.<Footnote i={8} desc="Vgl. Solga/Powell/Berger 2009, S. 14 ff."/>   
 													<br />
-													Beispiele hierfür sind: <br /> Einkommensungleichheiten aufgrund von dem Geschlecht, Ungleiche Risiken in der Arbeitslosigkeit aufgrund der sozialen Herkunft oder ungleiche Risiken zur Armut und Gesundheit durch den erlernten Beruf oder der Bildung.<Footnote i={8} desc="Vgl. Solga/Powell/Berger 2009, S. 20 ff."/>   
+													Beispiele hierfür sind: <br /> Einkommensungleichheiten aufgrund von dem Geschlecht, Ungleiche Risiken in der Arbeitslosigkeit aufgrund der sozialen Herkunft oder ungleiche Risiken zur Armut und Gesundheit durch den erlernten Beruf oder der Bildung.<Footnote i={9} desc="Vgl. Solga/Powell/Berger 2009, S. 20 ff."/>   
 												</p>
-													Eine weitere gesellschaftliche Problematik ist die Diskriminierung.<Footnote i={9} desc="Vgl. Dieckmann 2017, S. 161"/>    
-													{" "}
-													Dabei werden Menschen zu einer homogenen Einheit, durch bestimmte Merkmale wie das Geschlecht oder die Hautfarbe, gruppiert.<Footnote i={10} desc="Vgl. Dieckmann 2017, S. 162 f."/>   
-													{" "}
-													Diskriminierung stellt demnach die Ungleichbehandlung von Menschen dar, welche durch spezifische Merkmale bzw. Zugehörigkeiten dieses Menschen getroffen wird.<Footnote i={11} desc="Vgl. Dieckmann 2017, S. 164 f."/>   
-													<br />
-													Nach Birgit Rommelspacher kann zwischen drei Ebenen von Diskriminierung unterschieden werden: Individuelle Diskriminierung, Institutionelle Diskriminierung und Strukturelle Diskriminierung:<Footnote i={12} desc="Vgl. Dieckmann 2017, S. 165"/>  
-													<br />
+													
 												<p>
-
+													Eine weitere gesellschaftliche Problematik ist die Diskriminierung.<Footnote i={10} desc="Vgl. Dieckmann 2017, S. 161"/>    
+													{" "}
+													Dabei werden Menschen zu einer homogenen Einheit, durch bestimmte Merkmale wie das Geschlecht oder die Hautfarbe, gruppiert.<Footnote i={11} desc="Vgl. Dieckmann 2017, S. 162 f."/>   
+													{" "}
+													Diskriminierung stellt demnach die Ungleichbehandlung von Menschen dar, welche durch spezifische Merkmale bzw. Zugehörigkeiten dieses Menschen getroffen wird.<Footnote i={12} desc="Vgl. Dieckmann 2017, S. 164 f."/>   
+													<br />
+													Nach Birgit Rommelspacher kann zwischen drei Ebenen von Diskriminierung unterschieden werden: Individuelle Diskriminierung, Institutionelle Diskriminierung und Strukturelle Diskriminierung:<Footnote i={13} desc="Vgl. Dieckmann 2017, S. 165"/>  
+													<br />
 												</p>
-												{/* Tabelle einfügen */}
-
 												<p>
+													<table className="table table-striped">
+														<caption style={{textAlign: 'center'}}>Tabelle 1: Ebenen von Diskriminierung<Footnote i={14} desc="Enthalten in: Dieckmann 2017, S. 165"/>   </caption>
+														<thead>
+														<tr>
+															<th>Diskriminierungsebene</th>
+															<th>Beispiele</th>
+														</tr>
+														</thead>
+														<tbody>
+														<tr>
+															<td>Individuelle Diskriminierung: Menschen werden aufgrund ihrer Merkmale bzw. der Zuschreibung dieses Merkmals von einzelnen Menschen ungleich zu anderen Personen behandelt   </td>
+															<td>Abwehrendes Verhalten,   beleidigende Äußerungen, verächtliche Blicke oder Gewalt   </td>
+														</tr>
+														<tr>
+															<td>Institutionelle Diskriminierung: Menschen werden durch zugeschriebene Merkmale von Organisationen, Unternehmen oder der Verwaltung ungleich zu anderen Personen behandelt.   </td>
+															<td>Wohnungsabsagen,   Jobabsagen, fehlende Barrierefreiheit beim Bau von Ämtern oder Supermärkten   und Polizeikontrollen   </td>
+														</tr>
+														<tr>
+															<td>Strukturelle Diskriminierung: Ausgrenzungen   entstehen durch gesellschaftliche Systeme und deren Rechtsvorstellungen sowie   den politischen und ökonomischen Strukturen.   </td>
+															<td>fehlende   Gleichstellung von gesellschaftlichen Minderheiten und Frauen   </td>
+														</tr>
+														</tbody>
+													</table>
+													</p>
+												<p>
+													<br />
 													Bias im maschinellen Lernen betreffen vor allem die Ebenen der <span className="font-weight-bold">institutionellen</span>  und <span className="font-weight-bold">strukturellen</span> Diskriminierung.
 												</p>
 
