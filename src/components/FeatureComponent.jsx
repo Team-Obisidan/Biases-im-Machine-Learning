@@ -38,11 +38,13 @@ export class FeatureComponent extends Component {
 													</ul>
 												</p>
 
-												<YouTubeExpandable/>
+												<YouTubeExpandable title="Was ist maschinelles Lernen?" slug="KcnzihaSxgg"/>
 												<p>
 													Machine Learning ist demnach ein wichtiges Teilgebiet der KI und beschreibt wie Maschinen das Lernen lernen.<Footnote i={2} desc="Vgl. Welsch/Eitle/Buxmann 2018, S. 370"/>
+													{' '}
 													Machine Learning umfasst im Allgemeinen Methoden, die mithilfe von Lernprozessen Zusammenhänge in bestehenden Datensätzen erkennen.
 													Auf diesen Zusammenhängen basierend werden dann Vorhersagen getroffen.<Footnote i={3} desc="Vgl. Welsch/Eitle/Buxmann 2018, S. 370"/>
+													{' '}
 													Dabei lernt das Modell über Algorithmen „selbst“ und kann auf Basis existierender Daten Rückschlüsse ziehen, ohne dass diese Rückschlüsse genau programmiert sind.
 													Die Grundlage für das maschinelle Lernen stellen demnach Algorithmen und Trainingsdaten dar.<Footnote i={4} desc="Vgl. Welsch/Eitle/Buxmann 2018, S. 371"/>
 												</p>
@@ -83,7 +85,7 @@ export class FeatureComponent extends Component {
 													{' '}
 												</p>
 
-												<YouTubeExpandable/>
+												<YouTubeExpandable slug="qEAYDe06bE4" title="Biases im Machine Learning"/>
 												<p>
 													Die Voreingenommenheit besagt die unterschiedlichen Schlüsse, die wir je nach unseren Erfahrungen ziehen.
 													{' '}
