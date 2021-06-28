@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import {Footnotes} from '@team-obisidan/react-footnotes';
 import {getFooter} from 'components/GetFooter.jsx';
-import {TextExpandable} from './expandables/TextExpandable.jsx';
 import prisoner from './prisoner.jpeg';
 import {ReactComponent as RiskWhite} from './risk-scores-white.svg';
 import {ReactComponent as RiskBlack} from './risk-scores-black.svg';
@@ -18,9 +17,25 @@ export class MLUsecaseComponent extends Component {
 				</div>
 				<div className="inter-lvl">
 
-					<div className="inhalt1 shadow-sm">
+					<div className="inhalt1 shadow-sm overflow-hidden">
 
-						<TextExpandable title="Bereiche" length="1000" iconHtml="🕮" iconColor="black">
+						<AbstractTextExpandable title="Bereiche" length="1000" iconHtml="🕮" iconColor="black">
+							<h4>Bereiche</h4>
+							<Footnotes>
+								{({Footnote, getFootnotes}) => (
+									<div style={{textAlign: 'left'}}>
+
+										<p>
+											Machine Learning findet mit den letzten Jahren zunehmend seinen Weg in immer mehr Bereiche der Wirtschaft, der Bildung und der öffentlichen Verwaltung.<Footnote i={1} desc="Vgl. Arora, A. (2018), S. 1"/>
+											<br/>
+											Wie soetwas in der Praxis aussieht, wird in diesem und dem nebenstehenden Element erläutert.
+
+										</p>
+
+										{getFooter(getFootnotes, 'MLBereiche')}
+									</div>
+								)}
+							</Footnotes>
 							<Footnotes>
 								{({Footnote, getFootnotes}) => (
 									<div style={{textAlign: 'left'}}>
@@ -32,12 +47,15 @@ export class MLUsecaseComponent extends Component {
 											{' '}
 											Häufig wird hierbei angenommen das die KI den Menschen in vielen Bereichen ersetzen wird, während die Forschung in diesem Bereich davon ausgeht, dass derartige Systeme für lange Zeit lediglich ergänzend zur menschlichen Tätigkeit stattfinden.<Footnote i={2} desc="Vgl. Adorno, M. et al. (2020), S. 67 f."/>
 											{' '}
-											Während im Bereich der Wirtschaft Machine Learning Prozessunterstützend angewandt wird und damit der Erhöhung der Effizienz dienen soll, gibt es zunehmend gesellschaftliche Bereiche in denen Machine Learning genutzt wird.<Footnote i={3} desc="Vgl. Liu, H.; Gegov, A.; Cocea, M. (2016), S. 588"/>
+											<br/>
+											Während im Bereich der Wirtschaft Machine Learning Prozessunterstützend angewandt wird und damit der Erhöhung der Effizienz dienen soll, gibt es zunehmend gesellschaftliche Bereiche, in denen Machine Learning genutzt wird.<Footnote i={3} desc="Vgl. Liu, H.; Gegov, A.; Cocea, M. (2016), S. 588"/>
 											<br/>
 
 											Hierbei werden Schwachstellen der KIs hinsichtlich des Umgangs mit Menschen aufgedeckt.
 											{' '}
-											Einige prominente Fälle, in denen Machine Learning im Umgang mit Menschen versagt werden im nebenstehenden Element erläutert.
+											<br/>
+											<br/>
+											Einige prominente Fälle, in denen Machine Learning im Umgang mit Menschen versagt, werden im nebenstehenden Element (&quot;Beispiele&quot;) erläutert.
 
 										</p>
 
@@ -45,20 +63,20 @@ export class MLUsecaseComponent extends Component {
 									</div>
 								)}
 							</Footnotes>
-						</TextExpandable>
+						</AbstractTextExpandable>
 					</div>
 
-					<div className="inhalt2 shadow-sm">
+					<div className="inhalt2 shadow-sm overflow-hidden">
 
 						<AbstractTextExpandable title="Beispiele" iconHtml="🕮" iconColor="black">
 							<h4>Beispiele</h4>
 							<p>
 								Folgende Beispiele werden in diesem Element gezeigt: <br/>
 								<br/>
-								<p>Amazons Bewerbungstool</p>
+								<p><u>Amazons Bewerbungstool</u></p>
 
-								<p>Machine Learning Algorithmus erkennt keine Lebensmittel/Produkte niedriger Einkommensklassen</p>
-								<p>Machine Learning System zur Beurteilung der Rückfälligkeit von Sträflingen</p>
+								<p><u>Machine Learning Algorithmus erkennt keine Lebensmittel/Produkte niedriger Einkommensklassen</u></p>
+								<p><u>Machine Learning System zur Beurteilung der Rückfälligkeit von Sträflingen</u></p>
 							</p>
 							<Footnotes>
 								{({Footnote, getFootnotes}) => (

@@ -8,10 +8,10 @@ export class MLTheoryComponent extends Component {
 			<div className="theorie2">
 				<div className="container">
 					<div className="row">
-						<div className="where col-lg-7">
+						<div className="where col-lg-7 overflow-hidden">
 							<MLUsecaseComponent/>
 						</div>
-						<div className="future col-lg-4">
+						<div className="future col-lg-4 overflow-hidden">
 							<MLFutureOutlookComponent/>
 						</div>
 

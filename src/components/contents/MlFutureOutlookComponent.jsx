@@ -8,7 +8,7 @@ export class MLFutureOutlookComponent extends Component {
 					<h2>ML in der Zukunft</h2>
 				</div>
 
-				<div className="inhalt3 shadow-sm">
+				<div className="inhalt3 shadow-sm overflow-hidden">
 
 					<TextExpandable title="Anwendungsszenarien" length="900"/>
 				</div>

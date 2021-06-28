@@ -17,7 +17,7 @@ export class MitigationComponent extends Component {
 									<div className="überschrift2 shadow-sm">
 										<h2>Mitigation von Biases in ML</h2>
 									</div>
-									<div className="miti-basics shadow-sm">
+									<div className="miti-basics shadow-sm overflow-hidden">
 										<MitiBasicsComponent/>
 									</div>
 									<div className="inter-lvl">
