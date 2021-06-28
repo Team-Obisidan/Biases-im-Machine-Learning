@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Biases-im-Machine-Learning/static/css/main.bed690a8.chunk.css",
-    "main.js": "/Biases-im-Machine-Learning/static/js/main.36175f5b.chunk.js",
-    "main.js.map": "/Biases-im-Machine-Learning/static/js/main.36175f5b.chunk.js.map",
+    "main.css": "/Biases-im-Machine-Learning/static/css/main.d553db81.chunk.css",
+    "main.js": "/Biases-im-Machine-Learning/static/js/main.69f962b1.chunk.js",
+    "main.js.map": "/Biases-im-Machine-Learning/static/js/main.69f962b1.chunk.js.map",
     "runtime-main.js": "/Biases-im-Machine-Learning/static/js/runtime-main.3f6e3486.js",
     "runtime-main.js.map": "/Biases-im-Machine-Learning/static/js/runtime-main.3f6e3486.js.map",
     "static/css/2.8dce80fa.chunk.css": "/Biases-im-Machine-Learning/static/css/2.8dce80fa.chunk.css",
-    "static/js/2.b5ae93fb.chunk.js": "/Biases-im-Machine-Learning/static/js/2.b5ae93fb.chunk.js",
-    "static/js/2.b5ae93fb.chunk.js.map": "/Biases-im-Machine-Learning/static/js/2.b5ae93fb.chunk.js.map",
+    "static/js/2.83e1a3f7.chunk.js": "/Biases-im-Machine-Learning/static/js/2.83e1a3f7.chunk.js",
+    "static/js/2.83e1a3f7.chunk.js.map": "/Biases-im-Machine-Learning/static/js/2.83e1a3f7.chunk.js.map",
     "static/js/3.c9cf262e.chunk.js": "/Biases-im-Machine-Learning/static/js/3.c9cf262e.chunk.js",
     "static/js/3.c9cf262e.chunk.js.map": "/Biases-im-Machine-Learning/static/js/3.c9cf262e.chunk.js.map",
     "index.html": "/Biases-im-Machine-Learning/index.html",
     "static/css/2.8dce80fa.chunk.css.map": "/Biases-im-Machine-Learning/static/css/2.8dce80fa.chunk.css.map",
-    "static/css/main.bed690a8.chunk.css.map": "/Biases-im-Machine-Learning/static/css/main.bed690a8.chunk.css.map",
-    "static/js/2.b5ae93fb.chunk.js.LICENSE.txt": "/Biases-im-Machine-Learning/static/js/2.b5ae93fb.chunk.js.LICENSE.txt",
-    "static/media/prisoner.c636a658.jpeg": "/Biases-im-Machine-Learning/static/media/prisoner.c636a658.jpeg",
+    "static/css/main.d553db81.chunk.css.map": "/Biases-im-Machine-Learning/static/css/main.d553db81.chunk.css.map",
+    "static/js/2.83e1a3f7.chunk.js.LICENSE.txt": "/Biases-im-Machine-Learning/static/js/2.83e1a3f7.chunk.js.LICENSE.txt",
+    "static/media/prisoner.841f8e71.jpeg": "/Biases-im-Machine-Learning/static/media/prisoner.841f8e71.jpeg",
     "static/media/risk-scores-black.db8d44a2.svg": "/Biases-im-Machine-Learning/static/media/risk-scores-black.db8d44a2.svg",
     "static/media/risk-scores-white.44d1871b.svg": "/Biases-im-Machine-Learning/static/media/risk-scores-white.44d1871b.svg",
     "static/media/index.css": "/Biases-im-Machine-Learning/static/media/roboto-vietnamese-400-normal.c0bec65d.woff2"
@@ -22,8 +22,8 @@
   "entrypoints": [
     "static/js/runtime-main.3f6e3486.js",
     "static/css/2.8dce80fa.chunk.css",
-    "static/js/2.b5ae93fb.chunk.js",
-    "static/css/main.bed690a8.chunk.css",
-    "static/js/main.36175f5b.chunk.js"
+    "static/js/2.83e1a3f7.chunk.js",
+    "static/css/main.d553db81.chunk.css",
+    "static/js/main.69f962b1.chunk.js"
   ]
 }
