@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { AbstractTextExpandable } from './contents/expandables/AbstractTextExpandable.jsx';
 import { MlTypeComponent } from './contents/further/MlTypeComponent.jsx';
 import {SourcesComponent} from './contents/SourcesComponent.jsx';
 import {youtubeAlert} from './contents/YoutubeAlert.jsx';
@@ -16,27 +17,42 @@ export class FurtherLearningComponent extends Component {
 
 							<div className="mo-boxen">
 							
-								<div className="box1 useme" onClick={() => youtubeAlert()}>
+								
+								
+								<AbstractTextExpandable className="box1 useme" iconColor="#9CCC65" iconHtml="&#9632;">
+								
 									<p>Arten masch. Lernen</p>
 									
-								</div>
 								
+								<span></span>
+								<div>
+									penis
+								</div>
+								</AbstractTextExpandable>
 
-								<a className="text-decoration-none "  id="t" href="https://www.pwc.com/gx/en/issues/analytics/assets/pwc-ai-analysis-sizing-the-prize-report.pdf" target="_blank">
-								<div className="useme" onClick={() => youtubeAlert()}>
-									<p>Paper IEEE</p>
+								<a className="text-decoration-none "  id="t" href="https://queue.acm.org/detail.cfm?id=3466134" target="_blank">
+								<div className="useme">
+									<p>Paper ACM - Biases in AI Systems</p>
 								</div>
 								</a>
 
 								<a className="text-decoration-none" href="https://www.pwc.com/gx/en/issues/analytics/assets/pwc-ai-analysis-sizing-the-prize-report.pdf" target="_blank">
-								<div className="useme" onClick={() => youtubeAlert()}>
+								<div className="useme" >
 									<p>PWC Studie zur KI</p>
 								</div>
 								</a>
 
-								<div className="box2 useme" onClick={() => youtubeAlert()}>
+								
+								<AbstractTextExpandable className="box2 useme" iconColor="#FFCA28" iconHtml="&#9632;">
+								
 									<p>Weitere Beispiele</p>
+									
+								
+								<span></span>
+								<div>
+									penis
 								</div>
+								</AbstractTextExpandable>
 
 							</div>
 
