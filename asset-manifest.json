@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Biases-im-Machine-Learning/static/css/main.bed690a8.chunk.css",
-    "main.js": "/Biases-im-Machine-Learning/static/js/main.ba24417e.chunk.js",
-    "main.js.map": "/Biases-im-Machine-Learning/static/js/main.ba24417e.chunk.js.map",
+    "main.js": "/Biases-im-Machine-Learning/static/js/main.cc33e537.chunk.js",
+    "main.js.map": "/Biases-im-Machine-Learning/static/js/main.cc33e537.chunk.js.map",
     "runtime-main.js": "/Biases-im-Machine-Learning/static/js/runtime-main.3f6e3486.js",
     "runtime-main.js.map": "/Biases-im-Machine-Learning/static/js/runtime-main.3f6e3486.js.map",
     "static/css/2.8dce80fa.chunk.css": "/Biases-im-Machine-Learning/static/css/2.8dce80fa.chunk.css",
@@ -24,6 +24,6 @@
     "static/css/2.8dce80fa.chunk.css",
     "static/js/2.b5ae93fb.chunk.js",
     "static/css/main.bed690a8.chunk.css",
-    "static/js/main.ba24417e.chunk.js"
+    "static/js/main.cc33e537.chunk.js"
   ]
 }
