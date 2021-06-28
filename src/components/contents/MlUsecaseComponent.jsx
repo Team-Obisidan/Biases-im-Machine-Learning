@@ -38,7 +38,7 @@ export class MLUsecaseComponent extends Component {
 
 										</p>
 
-										{getFooter(getFootnotes)}
+										{getFooter(getFootnotes, "MLBereiche")}
 									</div>
 								)}
 							</Footnotes>
@@ -135,7 +135,7 @@ export class MLUsecaseComponent extends Component {
 
 										</div>
 
-										{getFooter(getFootnotes)}
+										{getFooter(getFootnotes, "MLBeispiele")}
 									</div>
 								)}
 							</Footnotes>

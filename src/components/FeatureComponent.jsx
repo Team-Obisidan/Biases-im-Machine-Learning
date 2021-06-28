@@ -49,7 +49,7 @@ export class FeatureComponent extends Component {
 													Die Grundlage für das maschinelle Lernen stellen demnach Algorithmen und Trainingsdaten dar.<Footnote i={4} desc="Vgl. Welsch/Eitle/Buxmann 2018, S. 371"/>
 												</p>
 
-												{getFooter(getFootnotes)}
+												{getFooter(getFootnotes, "WasIstML")}
 											</div>
 										)}
 									</Footnotes>
@@ -148,7 +148,7 @@ export class FeatureComponent extends Component {
 													Infolgedessen schlägt die KI Frauen weniger „gute“ Stellen vor. Frauen werden demnach benachteiligt, obwohl die Testdaten keinen Fehler als solchen haben, sondern die historische Realität widerspiegeln.<Footnote i={15} desc="Vgl. Suresh/Guttag 2020, S. 4 f."/><sup>,</sup><Footnote i={16} desc="Vgl. Mehrabi/Morstatter/Saxena/Lerman/Galstyan 2019, S. 4 ff."/>
 													{' '}
 												</p>
-												{getFooter(getFootnotes)}
+												{getFooter(getFootnotes, "Biases")}
 											</div>
 										)}
 									</Footnotes>
@@ -193,7 +193,7 @@ export class FeatureComponent extends Component {
 													{' '}
 												</p>
 
-												{getFooter(getFootnotes)}
+												{getFooter(getFootnotes, "WasistGesellschaft")}
 											</div>
 										)}
 									</Footnotes>

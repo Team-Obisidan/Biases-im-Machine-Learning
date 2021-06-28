@@ -1,12 +1,27 @@
 import { Footnotes } from '@team-obisidan/react-footnotes';
 import { getFooter } from 'components/GetFooter.jsx';
 import React, {Component} from 'react';
+import { AbstractTextExpandable } from '../expandables/AbstractTextExpandable.jsx';
 import {TextExpandable} from '../expandables/TextExpandable.jsx';
 
 export class MitiBasicsComponent extends Component {
 	render() {
 		return (
-			<TextExpandable title="Grundlagen der Mitigation von Biases" length="250">
+			<AbstractTextExpandable title="Grundlagen der Mitigation von Biases" length="250">
+			<h4>Grundlagen der Mitigation von Biases</h4>
+			<Footnotes>
+				{({Footnote, getFootnotes}) => (
+					<div style={{textAlign: 'left', margin: 0}}>
+						<p style={{margin: 0}}>
+							Die Mitigation (engl. für Abmilderung) von Biases (engl. für Vorurteile, Voreingenommenheiten, Neigungen) verfolgt das Ziel, innerhalb von Machine Learning Algorithmen Verzerrungen gegenüber unterprivilegierten Gruppen zu entzerren und dabei faire Vorhersagen zu treffen, ohne die Klassifizierungsgenauigkeit und die Performance eines Algorithmus zu beeinflussen. 
+							Die Mitigation beeinflusst dabei alle Personengruppen, um ein faires Leben miteinander zu ermöglichen. Die Erkennung solcher Biases und die darauffolgende Mitigation ist in vielen Fällen schwer zu identifizieren und zu lösen.<Footnote i={1} desc="Vgl. Bentivegna 2020"/> 
+							<br />  
+							Für ein näheres Verständnis werden im Folgenden grundlegende Konzepte dargestellt, wie Vorurteile innerhalb des Machine Learnings abgemildert werden können.
+							</p>
+				{getFooter(getFootnotes, 'PreviewMitiBasic')}
+				</div>
+				)}
+				</Footnotes>
 				<Footnotes>
 								{({Footnote, getFootnotes}) => (
 									<div style={{textAlign: 'left'}}>
@@ -79,11 +94,11 @@ export class MitiBasicsComponent extends Component {
 
 										</p>
 
-										{getFooter(getFootnotes)}
+										{getFooter(getFootnotes, 'MitiBasic')}
 									</div>
 								)}
 				</Footnotes>
-			</TextExpandable>
+			</AbstractTextExpandable>
 		);
 	}
 }
