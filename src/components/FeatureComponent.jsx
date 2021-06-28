@@ -85,7 +85,7 @@ export class FeatureComponent extends Component {
 													{' '}
 												</p>
 
-												<YouTubeExpandable/>
+												<YouTubeExpandable slug="qEAYDe06bE4" title="Biases im Machine Learning"/>
 												<p>
 													Die Voreingenommenheit besagt die unterschiedlichen Schlüsse, die wir je nach unseren Erfahrungen ziehen.
 													{' '}
