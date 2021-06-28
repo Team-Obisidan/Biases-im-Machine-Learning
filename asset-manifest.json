@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Biases-im-Machine-Learning/static/css/main.d553db81.chunk.css",
-    "main.js": "/Biases-im-Machine-Learning/static/js/main.729561a2.chunk.js",
-    "main.js.map": "/Biases-im-Machine-Learning/static/js/main.729561a2.chunk.js.map",
-    "runtime-main.js": "/Biases-im-Machine-Learning/static/js/runtime-main.3f6e3486.js",
-    "runtime-main.js.map": "/Biases-im-Machine-Learning/static/js/runtime-main.3f6e3486.js.map",
+    "main.css": "/Biases-im-Machine-Learning/static/css/main.b1a82c20.chunk.css",
+    "main.js": "/Biases-im-Machine-Learning/static/js/main.16522e76.chunk.js",
+    "main.js.map": "/Biases-im-Machine-Learning/static/js/main.16522e76.chunk.js.map",
+    "runtime-main.js": "/Biases-im-Machine-Learning/static/js/runtime-main.5b64aeda.js",
+    "runtime-main.js.map": "/Biases-im-Machine-Learning/static/js/runtime-main.5b64aeda.js.map",
     "static/css/2.8dce80fa.chunk.css": "/Biases-im-Machine-Learning/static/css/2.8dce80fa.chunk.css",
-    "static/js/2.b5ae93fb.chunk.js": "/Biases-im-Machine-Learning/static/js/2.b5ae93fb.chunk.js",
-    "static/js/2.b5ae93fb.chunk.js.map": "/Biases-im-Machine-Learning/static/js/2.b5ae93fb.chunk.js.map",
-    "static/js/3.c9cf262e.chunk.js": "/Biases-im-Machine-Learning/static/js/3.c9cf262e.chunk.js",
-    "static/js/3.c9cf262e.chunk.js.map": "/Biases-im-Machine-Learning/static/js/3.c9cf262e.chunk.js.map",
+    "static/js/2.f3a70150.chunk.js": "/Biases-im-Machine-Learning/static/js/2.f3a70150.chunk.js",
+    "static/js/2.f3a70150.chunk.js.map": "/Biases-im-Machine-Learning/static/js/2.f3a70150.chunk.js.map",
+    "static/js/3.90f7e6ff.chunk.js": "/Biases-im-Machine-Learning/static/js/3.90f7e6ff.chunk.js",
+    "static/js/3.90f7e6ff.chunk.js.map": "/Biases-im-Machine-Learning/static/js/3.90f7e6ff.chunk.js.map",
     "index.html": "/Biases-im-Machine-Learning/index.html",
     "static/css/2.8dce80fa.chunk.css.map": "/Biases-im-Machine-Learning/static/css/2.8dce80fa.chunk.css.map",
-    "static/css/main.d553db81.chunk.css.map": "/Biases-im-Machine-Learning/static/css/main.d553db81.chunk.css.map",
-    "static/js/2.b5ae93fb.chunk.js.LICENSE.txt": "/Biases-im-Machine-Learning/static/js/2.b5ae93fb.chunk.js.LICENSE.txt",
+    "static/css/main.b1a82c20.chunk.css.map": "/Biases-im-Machine-Learning/static/css/main.b1a82c20.chunk.css.map",
+    "static/js/2.f3a70150.chunk.js.LICENSE.txt": "/Biases-im-Machine-Learning/static/js/2.f3a70150.chunk.js.LICENSE.txt",
     "static/media/DrugUsagePredPol.7f329969.jpg": "/Biases-im-Machine-Learning/static/media/DrugUsagePredPol.7f329969.jpg",
     "static/media/GPT-3-Associations.56165888.png": "/Biases-im-Machine-Learning/static/media/GPT-3-Associations.56165888.png",
     "static/media/Income-ML-results.0367dc04.png": "/Biases-im-Machine-Learning/static/media/Income-ML-results.0367dc04.png",
@@ -24,10 +24,10 @@
     "static/media/index.css": "/Biases-im-Machine-Learning/static/media/roboto-vietnamese-400-normal.c0bec65d.woff2"
   },
   "entrypoints": [
-    "static/js/runtime-main.3f6e3486.js",
+    "static/js/runtime-main.5b64aeda.js",
     "static/css/2.8dce80fa.chunk.css",
-    "static/js/2.b5ae93fb.chunk.js",
-    "static/css/main.d553db81.chunk.css",
-    "static/js/main.729561a2.chunk.js"
+    "static/js/2.f3a70150.chunk.js",
+    "static/css/main.b1a82c20.chunk.css",
+    "static/js/main.16522e76.chunk.js"
   ]
 }
