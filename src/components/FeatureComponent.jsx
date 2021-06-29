@@ -91,15 +91,15 @@ export class FeatureComponent extends Component {
 															Anwendungen, bei denen Machine Learning angewendet werden, haben oftmals eine große gesellschaftliche Reich- oder Tragweite.
 															{' '}
 															Umso wichtiger ist es, dass die Anwendung von Verfahren des Machine Learning auf Verzerrungen oder Voreingenommenheit überprüft werden.<Footnote i={1} desc="Vgl. Hagendorff 2019, S. 54"/>
-															<br />
-															<br />
+															<br/>
+															<br/>
 															&bdquo;Erstens ist es möglich, dass die Technikentwickelnden Voreingenommenheiten explizit oder implizit direkt
-															in ein Verfahren oder technisches Artefakt einbauen. Zweitens kann es passieren, dass sich Wertannahmen nicht intendiert in Verfahren oder Artefakte einschreiben, 
-															etwa, wenn bei lernenden Verfahren Trainingsdaten verwendet werden, in denen gesellschaftliche Ungleichbehandlungen abgebildet sind. 
+															in ein Verfahren oder technisches Artefakt einbauen. Zweitens kann es passieren, dass sich Wertannahmen nicht intendiert in Verfahren oder Artefakte einschreiben,
+															etwa, wenn bei lernenden Verfahren Trainingsdaten verwendet werden, in denen gesellschaftliche Ungleichbehandlungen abgebildet sind.
 															Das System lernt diese Ungleichbehandlungen und setzt sie (oftmals in gesteigerter
 															Größenordnung) fort.&ldquo;<Footnote i={2} desc="Kolleck/Orwat 2020, S. 32"/>
-															<br />
-															<br />
+															<br/>
+															<br/>
 															Dabei wird sich hier vorallem auf die gesellschaftlichen Biases beschränkt.
 
 														</p>
