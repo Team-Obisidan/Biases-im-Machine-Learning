@@ -1,19 +1,33 @@
 import {Footnotes} from '@team-obisidan/react-footnotes';
 import {getFooter} from 'components/GetFooter.jsx';
 import React, {Component} from 'react';
+import { AbstractTextExpandable } from '../expandables/AbstractTextExpandable.jsx';
 import {TextExpandable} from '../expandables/TextExpandable.jsx';
 
 export class OrganisationalComponent extends Component {
 	render() {
 		return (
-			<TextExpandable title="Organisationell" length="250">
+			<AbstractTextExpandable title="Organisationell" length="250">
+				<h4>Organisationell</h4>
+				<>
+						<div style={{textAlign: 'left'}}>
+
+							<p>
+								Auf der Ebene einer Organisation besteht die Herausforderung der Mitigation von Biases darin, wie Teams und Organisationen zusammenarbeiten und aufgebaut sind. [...]
+								<br/>
+								<br/>
+
+							</p>
+						</div>
+					
+				</>
 				<Footnotes>
 					{({Footnote, getFootnotes}) => (
 						<div style={{textAlign: 'left'}}>
 
 							<p>
 								Auf der Ebene einer Organisation besteht die Herausforderung der Mitigation von Biases darin, wie Teams und Organisationen zusammenarbeiten und aufgebaut sind. Fehlende Diversität in Teams, insbesondere innerhalb von technisch geprägten Organisationen, die meist aus weißen männlichen Personen bestehenden und wohlhabend sind, stellen einen Grund für Biases dar.
-								Eine Mitigation von Biases kann hier dadurch erreicht werden, dass solche Teams zunehmend diversifiziert werden. Silo-Denken und eine beschränkte Handlungskompetenz einzelner bestärkt dieses Phänomen weiter, da die so z.B. die Meinung einzelner Personen zu Ungleichheiten oder Problemen von KI-Systemen nicht berücksichtigt werden.<Footnote i={1} desc="Vgl. Smith/Rustagi 2020, S. 40 f."/>
+								Eine Mitigation von Biases kann hier dadurch erreicht werden, dass solche Teams zunehmend diversifiziert werden. Silo-Denken und eine beschränkte Handlungskompetenz Einzelner bestärkt dieses Phänomen weiter, da die so z.B. die Meinung einzelner Personen zu Ungleichheiten oder Problemen von KI-Systemen nicht berücksichtigt werden.<Footnote i={1} desc="Vgl. Smith/Rustagi 2020, S. 40 f."/>
 								<br/>
 								<br/>
 								Ein Mangel an sozialwissenschaftlichem Wissen in solchen Teams, die Algorithmen erstellen und Fachrichtungen meist auf Mathematik, Informatik, Naturwissenschaft und Technik (MINT) basieren, führt zu einer weiteren Stärkung aufkommender Biases.
@@ -31,7 +45,7 @@ export class OrganisationalComponent extends Component {
 						</div>
 					)}
 				</Footnotes>
-			</TextExpandable>
+			</AbstractTextExpandable>
 		);
 	}
 }

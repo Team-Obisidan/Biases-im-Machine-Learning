@@ -1,12 +1,21 @@
 import {Footnotes} from '@team-obisidan/react-footnotes';
 import {getFooter} from 'components/GetFooter.jsx';
 import React, {Component} from 'react';
+import { AbstractTextExpandable } from '../expandables/AbstractTextExpandable.jsx';
 import {TextExpandable} from '../expandables/TextExpandable.jsx';
 
 export class IndustrialComponent extends Component {
 	render() {
 		return (
-			<TextExpandable title="Industriell" length="250">
+			<AbstractTextExpandable title="Industriell" length="250">
+				<h4>Industriell</h4>
+				<div style={{textAlign: 'left'}}>
+
+							<p>
+								Künstliche Intelligenz ist ein schnellwachsender Geschäftsbereich innerhalb der Industrie.
+								Fehlende Regularien, bzw. Gesetze und das Recht am geistigen Eigentum machen die Überwachung [...]
+								</p>
+								</div>
 				<Footnotes>
 					{({Footnote, getFootnotes}) => (
 						<div style={{textAlign: 'left'}}>
@@ -28,7 +37,7 @@ export class IndustrialComponent extends Component {
 						</div>
 					)}
 				</Footnotes>
-			</TextExpandable>
+			</AbstractTextExpandable>
 		);
 	}
 }

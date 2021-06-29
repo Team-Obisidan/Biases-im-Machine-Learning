@@ -150,7 +150,7 @@ export class MLUsecaseComponent extends Component {
 											{' '}
 											Zum einen stellte sich bei einer Studie heraus das die Übereinstimmung der KI mit den tatsächlichen Rückfallquoten nur bei 20% liegt.<Footnote i={6} desc="Vgl. Northpoint Inc. (2021)"/>
 											{' '}
-											Zum anderen und hier liegt das Hauptproblem dieser KI: sie unterscheidet basierend auf ethnischen Merkmalen der StraftäterInnen und schätzt das Risiko für Rückfälligkeit bei People-of-Color grundsätzlich höher ein, als das weißer StraftäterInnen. <Footnote i={7} desc="Vgl. Angwin, J./Larson, J./Kirchner, L./Mattu, S. (2016)"/>
+											Zum anderen und hier liegt das Hauptproblem dieser KI: sie unterscheidet basierend auf ethnischen Merkmalen der StraftäterInnen und schätzt das Risiko für Rückfälligkeit bei People-of-Color grundsätzlich höher ein, als das weißer StraftäterInnen.<Footnote i={7} desc="Vgl. Angwin, J./Larson, J./Kirchner, L./Mattu, S. (2016)"/>
 											{' '}
 
 										</p>

@@ -188,7 +188,7 @@ export class FeatureComponent extends Component {
 															{' '}
 														</p>
 
-														<YouTubeExpandable/>
+														<YouTubeExpandable slug="1r2ULOzc1zw" title="Gesellschaftliche Herausforderungen - Video" />
 														<p>
 															Tatsächlich ist der Begriff der Gesellschaft in der Soziologie sehr umstritten.
 															{' '}
