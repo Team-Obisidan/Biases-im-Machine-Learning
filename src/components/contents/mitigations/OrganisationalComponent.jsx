@@ -1,26 +1,24 @@
 import {Footnotes} from '@team-obisidan/react-footnotes';
 import {getFooter} from 'components/GetFooter.jsx';
 import React, {Component} from 'react';
-import { AbstractTextExpandable } from '../expandables/AbstractTextExpandable.jsx';
-import {TextExpandable} from '../expandables/TextExpandable.jsx';
+import {AbstractTextExpandable} from '../expandables/AbstractTextExpandable.jsx';
 
 export class OrganisationalComponent extends Component {
 	render() {
 		return (
 			<AbstractTextExpandable title="Organisationell" length="250">
 				<h4>Organisationell</h4>
-				<>
-						<div style={{textAlign: 'left'}}>
 
-							<p>
-								Auf der Ebene einer Organisation besteht die Herausforderung der Mitigation von Biases darin, wie Teams und Organisationen zusammenarbeiten und aufgebaut sind. [...]
-								<br/>
-								<br/>
+				<div style={{textAlign: 'left'}}>
 
-							</p>
-						</div>
-					
-				</>
+					<p>
+						Auf der Ebene einer Organisation besteht die Herausforderung der Mitigation von Biases darin, wie Teams und Organisationen zusammenarbeiten und aufgebaut sind. [...]
+						<br/>
+						<br/>
+
+					</p>
+				</div>
+
 				<Footnotes>
 					{({Footnote, getFootnotes}) => (
 						<div style={{textAlign: 'left'}}>

@@ -51,7 +51,7 @@ export class FurtherLearningComponent extends Component {
 
 													</div>
 													<p>
-														Im <span className="font-weight-bold">Supervised Lernen</span> wird der Output des Modells bewertet. Wenn der Algorithmen Dinge beispielsweise falsch zuordnet, bekommt er eine niedrige Bewertung. <br />
+														Im <span className="font-weight-bold">Supervised Lernen</span> wird der Output des Modells bewertet. Wenn der Algorithmen Dinge beispielsweise falsch zuordnet, bekommt er eine niedrige Bewertung. <br/>
 														Das <span className="font-weight-bold">Unsupervised Lernen</span> hingegen beinhaltet kein Feedback.
 														Hier versucht der Algorithmus Daten basierend auf verbogenen Strukturen zu kategorisieren.<br/>
 														<span className="font-weight-bold">Reinforcement Learning</span> ist erstmal ähnlich wie Supervised Learning, da ebenfalls Feedback gegeben wird. Ähnlich wie in der Erziehung werden dabei aber nicht alle Aktionen bewertet, sondern ungewünschte Verhaltensweisen bestraft, besonders gewünscht gefördert.<Footnote i={3} desc="Vgl. Weber 2020, S. 39 f."/>
@@ -59,10 +59,10 @@ export class FurtherLearningComponent extends Component {
 													<p>
 														Im <span className="font-weight-bold">Supervised Learning</span> beinhaltet ein Datensatz die gewünschte Ausgabe bzw. Bezeichnung (das &quot;Label&quot;).
 														Die Funktion kann so einen Fehler für eine bestimmte Vorhersagte berechnen. Das Supervising erfolgt, wenn eine Vorhersage oder Zuordnung gemacht und ein tatsächlicher oder gewünschter Fehler erzeugt wird. Folgend wird die ursprüngliche Funktion angepasst um das Lernen zu ermöglichen.
-														<br /><br/>
+														<br/><br/>
 														Der Datensatz im <span className="font-weight-bold">Unsupervised Learning</span> beinhaltet keine gewünschte Ausgabe, sodass die Funktion nicht „überwacht“ werden kann bzw. es die Möglichkeit überhaupt nicht gibt.
 														Die Funktion versucht hingegen den Datensatz zu klassifizieren. Somit soll jede Klasse einen Teil des Datensatzes mit gemeinsamen Merkmalen enthalten.
-														<br /> <br />
+														<br/> <br/>
 														<span className="font-weight-bold">Reinforcement Learning</span> weist ein ähnliches Verhalten wie das menschliche Lernen auf, da nicht bei jeder Aktion ein Feedback gegeben wird. Der Algorithmus versucht, Aktionen für einen gegebenen Satz von Zuständen zu lernen, die zu einem Zielzustand führen. Dabei wird nicht nach jedem Beispiel ein Fehler ausgegeben (wie beim supervised Learning).
 														Der Fehler wird beim Empfang des Verstärkungssignals ausgegeben. Bspw. wenn der Zielzustand erreicht wird.
 														Es ist deshalb ähnlich zum menschlichen Verhalten, da nicht für alle Aktionen, sondern nur wenn eine Belohnung gerechtfertigt ist, ein Feedback gegeben wird.<Footnote i={4} desc="Vgl. Weber 2020, S. 40 ff."/>
