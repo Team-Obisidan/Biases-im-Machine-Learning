@@ -22,15 +22,15 @@ export class MitigationComponent extends Component {
 									</div>
 									<div className="inter-lvl">
 
-										<div className="inhalt4 shadow-sm">
+										<div className="inhalt4 shadow-sm overflow-hidden">
 											<SocietalComponent/>
 										</div>
 
-										<div className="inhalt5 shadow-sm">
+										<div className="inhalt5 shadow-sm overflow-hidden">
 											<IndustrialComponent/>
 										</div>
 
-										<div className="inhalt6 shadow-sm">
+										<div className="inhalt6 shadow-sm overflow-hidden">
 											<OrganisationalComponent/>
 										</div>
 

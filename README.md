@@ -1,4 +1,4 @@
-# Biases-im-Machine-Learning [![Deployment to Github Pages](https://github.com/Team-Obisidan/Biases-im-Machine-Learning/actions/workflows/deploy.yml/badge.svg?branch=dev)](https://github.com/Team-Obisidan/Biases-im-Machine-Learning/actions/workflows/deploy.yml) [![Abgegeben](https://img.shields.io/badge/Abgegeben-nein-red)](https://dhbw-stuttgart.de) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/xojs/xo)
+# Biases-im-Machine-Learning [![Deployment to Github Pages](https://github.com/Team-Obisidan/Biases-im-Machine-Learning/actions/workflows/deploy.yml/badge.svg?branch=dev)](https://github.com/Team-Obisidan/Biases-im-Machine-Learning/actions/workflows/deploy.yml) [![Abgegeben](https://img.shields.io/badge/Abgegeben-ja-green)](https://dhbw-stuttgart.de) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/xojs/xo)
 
 ## Authors
 <a href="https://www.linkedin.com/in/sebastian-ciornei-98430018a/" target="_blank" className="name-link" rel="noreferrer">Sebastian Ciornei</a>,
