@@ -34,7 +34,7 @@ export class MLFutureOutlookComponent extends Component {
 										<br/>
 										<br/>
 										Ein Beispiel ist das Social Credit-System in China. Dieses System zu Bewertung jedes einzelnen Bürgers anhand seines Verhaltens ist bisher nur in einzelnen Städten und Regionen der Volksrepublik eingeführt worden, soll aber zukünftig für ganz China eingesetzt werden.
-										<br />
+										<br/>
 										Das System sieht es vor Bürgern für gute Taten, Ehrenämter und Pro-Regierungspolitik den BürgerInnen Punkte auf Ihrem Konto gutzuschreiben, während der Gang über eine rote Ampel, illegale Aktionen, sowie Contra-Regierungspolitisches Verhalten mit Punktabzug bestraft werden.
 										<br/>
 										Mithilfe von Machine Learning in Form einer Künstlichen Intelligenz soll die Verwaltung und Vergabe dieser Punkte vorgenommen werden, da der manuelle Vorgang zeitlich nicht stemmbar ist.

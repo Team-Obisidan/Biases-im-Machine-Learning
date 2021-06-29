@@ -51,7 +51,7 @@ export class FurtherLearningComponent extends Component {
 
 													</div>
 													<p>
-														Im <span className="font-weight-bold">Supervised Lernen</span> wird der Output des Modells bewertet. Wenn der Algorithmen Dinge beispielsweise falsch zuordnet, bekommt er eine niedrige Bewertung. <br />
+														Im <span className="font-weight-bold">Supervised Lernen</span> wird der Output des Modells bewertet. Wenn der Algorithmen Dinge beispielsweise falsch zuordnet, bekommt er eine niedrige Bewertung. <br/>
 														Das <span className="font-weight-bold">Unsupervised Lernen</span> hingegen beinhaltet kein Feedback.
 														Hier versucht der Algorithmus Daten basierend auf verbogenen Strukturen zu kategorisieren.<br/>
 														<span className="font-weight-bold">Reinforcement Learning</span> ist erstmal ähnlich wie Supervised Learning, da ebenfalls Feedback gegeben wird. Ähnlich wie in der Erziehung werden dabei aber nicht alle Aktionen bewertet, sondern ungewünschte Verhaltensweisen bestraft, besonders gewünscht gefördert.<Footnote i={3} desc="Vgl. Weber 2020, S. 39 f."/>
@@ -59,10 +59,10 @@ export class FurtherLearningComponent extends Component {
 													<p>
 														Im <span className="font-weight-bold">Supervised Learning</span> beinhaltet ein Datensatz die gewünschte Ausgabe bzw. Bezeichnung (das &quot;Label&quot;).
 														Die Funktion kann so einen Fehler für eine bestimmte Vorhersagte berechnen. Das Supervising erfolgt, wenn eine Vorhersage oder Zuordnung gemacht und ein tatsächlicher oder gewünschter Fehler erzeugt wird. Folgend wird die ursprüngliche Funktion angepasst um das Lernen zu ermöglichen.
-														<br /><br/>
+														<br/><br/>
 														Der Datensatz im <span className="font-weight-bold">Unsupervised Learning</span> beinhaltet keine gewünschte Ausgabe, sodass die Funktion nicht „überwacht“ werden kann bzw. es die Möglichkeit überhaupt nicht gibt.
 														Die Funktion versucht hingegen den Datensatz zu klassifizieren. Somit soll jede Klasse einen Teil des Datensatzes mit gemeinsamen Merkmalen enthalten.
-														<br /> <br />
+														<br/> <br/>
 														<span className="font-weight-bold">Reinforcement Learning</span> weist ein ähnliches Verhalten wie das menschliche Lernen auf, da nicht bei jeder Aktion ein Feedback gegeben wird. Der Algorithmus versucht, Aktionen für einen gegebenen Satz von Zuständen zu lernen, die zu einem Zielzustand führen. Dabei wird nicht nach jedem Beispiel ein Fehler ausgegeben (wie beim supervised Learning).
 														Der Fehler wird beim Empfang des Verstärkungssignals ausgegeben. Bspw. wenn der Zielzustand erreicht wird.
 														Es ist deshalb ähnlich zum menschlichen Verhalten, da nicht für alle Aktionen, sondern nur wenn eine Belohnung gerechtfertigt ist, ein Feedback gegeben wird.<Footnote i={4} desc="Vgl. Weber 2020, S. 40 ff."/>
@@ -115,27 +115,26 @@ export class FurtherLearningComponent extends Component {
 
 													</div>
 
-													<p>
-														Ein sogenanntes &quot;Predictive Policing&quot; Tool der Polizei von Los Angeles, mit dem Verbrechen vorhergesagt werden sollten, zeigte ebenfalls spezifische Präferenzen, wie aus Abb.2 zu entnehmen.<Footnote i={3} desc="Vgl. Smith IV, J. (2016)"/>
-														<br/>
-														<br/>
-														<div className="container w-100">
-															<div className="row">
+													Ein sogenanntes &quot;Predictive Policing&quot; Tool der Polizei von Los Angeles, mit dem Verbrechen vorhergesagt werden sollten, zeigte ebenfalls spezifische Präferenzen, wie aus Abb.2 zu entnehmen.<Footnote i={3} desc="Vgl. Smith IV, J. (2016)"/>
+													<br/>
+													<br/>
+													<div className="container w-100">
+														<div className="row">
 
-																<div className="col-md-7 offset-md-3">
-																	<img src={DrugUsagePredPol} alt="Drogenkonsum laut PredPol" className="w-100"/>
+															<div className="col-md-7 offset-md-3">
+																<img src={DrugUsagePredPol} alt="Drogenkonsum laut PredPol" className="w-100"/>
 
-																</div>
 															</div>
-															<div className="row">
-																<div className="col-md-9 offset-md-2">
-																	<p className="mt-3">Abbildung 2: Vorhergesagter und tatsächlicher Drogenkonsum nach Ethnie<Footnote i={4} desc="Entnommen aus: Smith IV, J. (2016)"/></p>
-																</div>
-															</div>
-															<br/>
-
 														</div>
-													</p>
+														<div className="row">
+															<div className="col-md-9 offset-md-2">
+																<p className="mt-3">Abbildung 2: Vorhergesagter und tatsächlicher Drogenkonsum nach Ethnie<Footnote i={4} desc="Entnommen aus: Smith IV, J. (2016)"/></p>
+															</div>
+														</div>
+														<br/>
+
+													</div>
+													<br/>
 
 													<p>
 														In einer Erhebung zu potentiellen Biases in der Ausspielung von Werbung durch Lambrecht und Tucker entstanden die in Tab. 1 gezeigten Ergebnisse.<Footnote i={5} desc="Vgl. auch im Folgenden Lambrecht, A./Tucker, C. E. (2016)"/> {' '}

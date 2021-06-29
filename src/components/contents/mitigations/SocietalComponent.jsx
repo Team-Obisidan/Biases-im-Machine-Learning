@@ -1,22 +1,20 @@
 import {Footnotes} from '@team-obisidan/react-footnotes';
 import {getFooter} from 'components/GetFooter.jsx';
 import React, {Component} from 'react';
-import { AbstractTextExpandable } from '../expandables/AbstractTextExpandable.jsx';
-import {TextExpandable} from '../expandables/TextExpandable.jsx';
+import {AbstractTextExpandable} from '../expandables/AbstractTextExpandable.jsx';
 
 export class SocietalComponent extends Component {
 	render() {
 		return (
 			<AbstractTextExpandable title="Gesellschaftlich" length="250">
 				<h4>Gesellschaftlich</h4>
-				<>
+
 				<div style={{textAlign: 'left'}}>
 
-							<p>
-								Auf der gesellschaftlichen Ebene müssen bei der Mitigation von Biases historische Ungleichheiten und bestehende Machtdynamiken beachtet werden, die allgegenwärtig in Algorithmen vorhanden sind. [...]
-								</p>
+					<p>
+						Auf der gesellschaftlichen Ebene müssen bei der Mitigation von Biases historische Ungleichheiten und bestehende Machtdynamiken beachtet werden, die allgegenwärtig in Algorithmen vorhanden sind. [...]
+					</p>
 				</div>
-				</>
 				<Footnotes>
 					{({Footnote, getFootnotes}) => (
 						<div style={{textAlign: 'left'}}>

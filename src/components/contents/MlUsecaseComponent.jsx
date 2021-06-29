@@ -70,14 +70,14 @@ export class MLUsecaseComponent extends Component {
 
 						<AbstractTextExpandable title="Beispiele" iconHtml="🕮" iconColor="black">
 							<h4>Beispiele</h4>
-							<p>
+							<>
 								Folgende Beispiele werden in diesem Element gezeigt: <br/>
 								<br/>
 								<p><u>Amazons Bewerbungstool</u></p>
 
 								<p><u>Machine Learning Algorithmus erkennt keine Lebensmittel/Produkte niedriger Einkommensklassen</u></p>
 								<p><u>Machine Learning System zur Beurteilung der Rückfälligkeit von Sträflingen</u></p>
-							</p>
+							</>
 							<Footnotes>
 								{({Footnote, getFootnotes}) => (
 									<div style={{textAlign: 'left'}}>

@@ -141,8 +141,8 @@ export class MitiBasicsComponent extends Component {
 								<br/>
 								Matthias Bethge von der Universität Tübingen behauptet, dass die letzten Jahre vom maschinellen Lernen geprägt seien und damit eine Trendwende erreicht werden kann. Die Systeme seien noch nicht ausgereift, tragen jedoch schon jetzt dabei zu, Menschen und ihre umgebene Landschaft zu unterstützen.
 								Stefan Remy der Universität Magdeburg warnt von KI-Systemen besonders im Bereich des neuronalen und kognitiven Forschungsfeldes, da Erkenntnisse der Kommunikation zwischen menschlichen Nervenzellen fehlt und das durch den Einsatz von maschinellem Lernen nicht gänzlich ersetzt werden kann.
-								<br />
-								<br />
+								<br/>
+								<br/>
 								Tanja Schultz von der Universität Bremen behauptet, dass KI-Systeme allgegenwärtig ist und in aller Leben vorhanden sei.
 								Dabei spricht sich Schultz explizit dafür aus, dass Regulierungen von derartigen Algorithmen durch demokratische Regierungen durchgeführt werden sollen und nicht in der Hand von gewinnorientierten IT-Unternehmen verweilen soll.<Footnote i={25} desc="Vgl. Wallenfels 2021"/>
 								<br/>
