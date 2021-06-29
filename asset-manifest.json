@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Biases-im-Machine-Learning/static/css/main.b1a82c20.chunk.css",
-    "main.js": "/Biases-im-Machine-Learning/static/js/main.082d2900.chunk.js",
-    "main.js.map": "/Biases-im-Machine-Learning/static/js/main.082d2900.chunk.js.map",
+    "main.css": "/Biases-im-Machine-Learning/static/css/main.91805ead.chunk.css",
+    "main.js": "/Biases-im-Machine-Learning/static/js/main.d7436b1e.chunk.js",
+    "main.js.map": "/Biases-im-Machine-Learning/static/js/main.d7436b1e.chunk.js.map",
     "runtime-main.js": "/Biases-im-Machine-Learning/static/js/runtime-main.5b64aeda.js",
     "runtime-main.js.map": "/Biases-im-Machine-Learning/static/js/runtime-main.5b64aeda.js.map",
     "static/css/2.8dce80fa.chunk.css": "/Biases-im-Machine-Learning/static/css/2.8dce80fa.chunk.css",
@@ -12,12 +12,13 @@
     "static/js/3.90f7e6ff.chunk.js.map": "/Biases-im-Machine-Learning/static/js/3.90f7e6ff.chunk.js.map",
     "index.html": "/Biases-im-Machine-Learning/index.html",
     "static/css/2.8dce80fa.chunk.css.map": "/Biases-im-Machine-Learning/static/css/2.8dce80fa.chunk.css.map",
-    "static/css/main.b1a82c20.chunk.css.map": "/Biases-im-Machine-Learning/static/css/main.b1a82c20.chunk.css.map",
+    "static/css/main.91805ead.chunk.css.map": "/Biases-im-Machine-Learning/static/css/main.91805ead.chunk.css.map",
     "static/js/2.f3a70150.chunk.js.LICENSE.txt": "/Biases-im-Machine-Learning/static/js/2.f3a70150.chunk.js.LICENSE.txt",
     "static/media/DrugUsagePredPol.7f329969.jpg": "/Biases-im-Machine-Learning/static/media/DrugUsagePredPol.7f329969.jpg",
     "static/media/GPT-3-Associations.56165888.png": "/Biases-im-Machine-Learning/static/media/GPT-3-Associations.56165888.png",
     "static/media/Income-ML-results.0367dc04.png": "/Biases-im-Machine-Learning/static/media/Income-ML-results.0367dc04.png",
     "static/media/Income-Span.ca84e3e1.png": "/Biases-im-Machine-Learning/static/media/Income-Span.ca84e3e1.png",
+    "static/media/TypeLearning.b47e583e.jpeg": "/Biases-im-Machine-Learning/static/media/TypeLearning.b47e583e.jpeg",
     "static/media/prisoner.841f8e71.jpeg": "/Biases-im-Machine-Learning/static/media/prisoner.841f8e71.jpeg",
     "static/media/risk-scores-black.db8d44a2.svg": "/Biases-im-Machine-Learning/static/media/risk-scores-black.db8d44a2.svg",
     "static/media/risk-scores-white.44d1871b.svg": "/Biases-im-Machine-Learning/static/media/risk-scores-white.44d1871b.svg",
@@ -27,7 +28,7 @@
     "static/js/runtime-main.5b64aeda.js",
     "static/css/2.8dce80fa.chunk.css",
     "static/js/2.f3a70150.chunk.js",
-    "static/css/main.b1a82c20.chunk.css",
-    "static/js/main.082d2900.chunk.js"
+    "static/css/main.91805ead.chunk.css",
+    "static/js/main.d7436b1e.chunk.js"
   ]
 }
