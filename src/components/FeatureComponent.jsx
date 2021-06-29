@@ -30,20 +30,20 @@ export class FeatureComponent extends Component {
 											<Footnotes>
 												{({Footnote, getFootnotes}) => (
 													<div style={{textAlign: 'left'}}>
-														<p>
-															Durch KI können Maschinen menschliche Fähigkeiten und Verhaltensweisen wie das Wahrnehmen, das Sprachverstehen, Lernen, etc. nachbilden.<Footnote i={1} desc="Vgl. Gentsch 2018, S. 17 f."/>
-															{' '}
-															Mittels intelligenten Algorithmen, welche Daten analysieren und auswerten, können „selbständige“ Handlungen aus den Analyseergebnissen abgeleitet und durchgeführt werden.<Footnote i={2} desc="Vgl. Gentsch 2018, S. 13"/>
-															<br/>
-															<br/>
-															KI und Machine Learning hängen zwar eng zusammen, dürfen aber nicht als Synonyme verwendet werden.
-															Die Begrifflichkeiten lassen sich dabei wie folgt abgrenzen:
-															<ul>
-																<li>KI definiert die Herausforderungen und entwickelt die zugehörigen Lösungsansätze.</li>
-																<li>Machine Learning ist eine Methode der KI und zielt darauf ab, dass Maschinen automatisiert sinnvolle Ergebnisse liefern, ohne dass der Lösungsweg bzw. die Lösung explizit programmiert ist.</li>
-																<li>Algorithmen lernen aus vorliegenden Testdaten Modelle, die auf weitere (neue) Daten angewendet werden können.<Footnote i={3} desc="Vgl. Kersting/Tresp 2018, S. 1"/></li>
-															</ul>
-														</p>
+
+														Durch KI können Maschinen menschliche Fähigkeiten und Verhaltensweisen wie das Wahrnehmen, das Sprachverstehen, Lernen, etc. nachbilden.<Footnote i={1} desc="Vgl. Gentsch 2018, S. 17 f."/>
+														{' '}
+														Mittels intelligenten Algorithmen, welche Daten analysieren und auswerten, können „selbständige“ Handlungen aus den Analyseergebnissen abgeleitet und durchgeführt werden.<Footnote i={2} desc="Vgl. Gentsch 2018, S. 13"/>
+														<br/>
+														<br/>
+														KI und Machine Learning hängen zwar eng zusammen, dürfen aber nicht als Synonyme verwendet werden.
+														Die Begrifflichkeiten lassen sich dabei wie folgt abgrenzen:
+														<ul>
+															<li>KI definiert die Herausforderungen und entwickelt die zugehörigen Lösungsansätze.</li>
+															<li>Machine Learning ist eine Methode der KI und zielt darauf ab, dass Maschinen automatisiert sinnvolle Ergebnisse liefern, ohne dass der Lösungsweg bzw. die Lösung explizit programmiert ist.</li>
+															<li>Algorithmen lernen aus vorliegenden Testdaten Modelle, die auf weitere (neue) Daten angewendet werden können.<Footnote i={3} desc="Vgl. Kersting/Tresp 2018, S. 1"/></li>
+														</ul>
+														<br/>
 
 														<YouTubeExpandable title="Was ist maschinelles Lernen?" slug="KcnzihaSxgg"/>
 														<p>

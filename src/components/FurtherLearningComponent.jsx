@@ -115,27 +115,26 @@ export class FurtherLearningComponent extends Component {
 
 													</div>
 
-													<p>
-														Ein sogenanntes &quot;Predictive Policing&quot; Tool der Polizei von Los Angeles, mit dem Verbrechen vorhergesagt werden sollten, zeigte ebenfalls spezifische Präferenzen, wie aus Abb.2 zu entnehmen.<Footnote i={3} desc="Vgl. Smith IV, J. (2016)"/>
-														<br/>
-														<br/>
-														<div className="container w-100">
-															<div className="row">
+													Ein sogenanntes &quot;Predictive Policing&quot; Tool der Polizei von Los Angeles, mit dem Verbrechen vorhergesagt werden sollten, zeigte ebenfalls spezifische Präferenzen, wie aus Abb.2 zu entnehmen.<Footnote i={3} desc="Vgl. Smith IV, J. (2016)"/>
+													<br/>
+													<br/>
+													<div className="container w-100">
+														<div className="row">
 
-																<div className="col-md-7 offset-md-3">
-																	<img src={DrugUsagePredPol} alt="Drogenkonsum laut PredPol" className="w-100"/>
+															<div className="col-md-7 offset-md-3">
+																<img src={DrugUsagePredPol} alt="Drogenkonsum laut PredPol" className="w-100"/>
 
-																</div>
 															</div>
-															<div className="row">
-																<div className="col-md-9 offset-md-2">
-																	<p className="mt-3">Abbildung 2: Vorhergesagter und tatsächlicher Drogenkonsum nach Ethnie<Footnote i={4} desc="Entnommen aus: Smith IV, J. (2016)"/></p>
-																</div>
-															</div>
-															<br/>
-
 														</div>
-													</p>
+														<div className="row">
+															<div className="col-md-9 offset-md-2">
+																<p className="mt-3">Abbildung 2: Vorhergesagter und tatsächlicher Drogenkonsum nach Ethnie<Footnote i={4} desc="Entnommen aus: Smith IV, J. (2016)"/></p>
+															</div>
+														</div>
+														<br/>
+
+													</div>
+													<br/>
 
 													<p>
 														In einer Erhebung zu potentiellen Biases in der Ausspielung von Werbung durch Lambrecht und Tucker entstanden die in Tab. 1 gezeigten Ergebnisse.<Footnote i={5} desc="Vgl. auch im Folgenden Lambrecht, A./Tucker, C. E. (2016)"/> {' '}
