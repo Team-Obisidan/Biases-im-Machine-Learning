@@ -47,7 +47,8 @@ export const LibraryExpandable = () => {
 				<p><span className="font-weight-bold">Smith IV, J. (2016):</span> Crime-prediction tool PredPol amplifies racially biased policing, study shows, https://www.mic.com/articles/156286/crime-prediction-tool-pred-pol-only-amplifies-racially-biased-policing-study-shows, Abruf: 25.05.2021</p>
 				<p><span className="font-weight-bold">Suresh H. / Guttag J. V. (2020):</span> A Framwork for Unterstanding Unintended Consequences of Machine Learning, https://arxiv.org/abs/1901.10002, Abruf: 10.06.2021</p>
 				<p><span className="font-weight-bold">Wallenfels, M. (2021):</span> Ethikrat: Vier verschiedene Sichtweisen von KI-Forschern, https://www.aerztezeitung.de/Wirtschaft/Ethikrat-Vier-verschiedene-Sichtweisen-von-KI-Forschern-417451.html, Abruf: 22.06.2021</p>
-
+				<p><span className="font-weight-bold">Weber, F. (2020):</span> Künstliche Intelligenz für Business Analytics, Algorithmen, Plattformen und Anwendungsszenarien, 1. Auflage, Wiesbaden: Springer Vieweg</p>
+				
 				<p><span className="font-weight-bold">Welsch, A./Eitle, V./Buxmann, P. (2018):</span> Maschinelles Lernen, in: HMD Praxis der Wirtschaftsinformatik, 55. Jg., Nr. 2, S. 366–382</p>
 				<p><span className="font-weight-bold">Zehlike, M./Bonchi, F./Castillo, C./Hajian, S./Megahed, M./Baeza-Yates, R. (2017):</span> FA*IR: A Fair Top-k Ranking Algorithm, in: Proceedings of the 2017 ACM on Conference on Information and Knowledge Management, (Hrsg.: Lim, E.-P. u.a. ), New York, NY, USA: ACM, S. 1569–1578</p>
 

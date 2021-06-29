@@ -5,7 +5,7 @@ import {AbstractTextExpandable} from './contents/expandables/AbstractTextExpanda
 import {SourcesComponent} from './contents/SourcesComponent.jsx';
 
 import GPTAssociations from './GPT-3-Associations.png';
-
+import TypeLearning from './TypeLearning.jpeg';
 import DrugUsagePredPol from './DrugUsagePredPol.jpg';
 import {getFooter} from './GetFooter.jsx';
 
@@ -32,7 +32,38 @@ export class FurtherLearningComponent extends Component {
 											{({Footnote, getFootnotes}) => (
 												<div style={{textAlign: 'left'}}>
 													<p>
-														1,2, Polizei<Footnote i={1} desc="Entnommen aus: Smith IV, J. (2016)"/>
+														Die Algorithmen, welche in ML verwendet werden, lassen sich in drei Kategorien einteilen: Supervised Learning, Unsupervised Learning und Reinforcement Learning.<Footnote i={1} desc="Vgl. Weber 2020, S. 39"/>
+													</p>
+													<div className="container w-100">
+															<div className="row">
+
+																<div className="col-md-8 offset-md-2">
+																	<img src={TypeLearning} alt="Arten des maschinellen Lernens" className="w-100"/>
+
+																</div>
+															</div>
+															<div className="row">
+																<div className="col-md-9 offset-md-3">
+																	<p className="mt-3">Abbildung 1: Verschiede Arten des Maschinellen Lernens<Footnote i={2} desc="Enthalten in: Weber 2020, S. 39"/></p>
+																</div>
+															</div>
+															<br/>
+
+														</div>
+													<p>
+													Im Supervised Lernen wird über die Vorhersage richtig oder falsch ein Feedback gegeben. Das Unsupervised Lernen hingegen beinhaltet kein Feedback. 
+													Hier versucht der Algorithmus Daten auf verbogenen Strukturen basierend zu kategorisieren. 
+													Reinforcement Learning ist erstmal ähnlich wie Supervised Learning. Es enthält ebenfalls Feedback. Allerdings zeigt es nicht für jeden Eingang oder Zustand eine Reaktion.<Footnote i={3} desc="Vgl. Weber 2020, S. 39 f."/> 
+													</p>
+													<p>
+													Im Supervised Learning beinhaltet ein Datensatz die gewünschte Ausgabe bzw. Bezeichnung. 
+													Die Funktion kann so einen Fehler für eine bestimmte Vorhersagte berechnen. Das Supervising erfolgt, wenn eine Vorhersage gemacht und ein tatsächlicher oder gewünschter Fehler erzeugt wird, um die ursprüngliche Funktion anzupassen und das Lernen zu ermöglichen. 
+													Der Datensatz im Unsupervised Learning beinhaltet keine gwünschte Ausgabe, sodass die Funktion nicht „überwacht“ werden kann bzw. es die Möglichkeit überhaupt nicht gibt. 
+													<br />
+													Die Funktion versucht hingegen den Datensatz zu klassifizieren. Somit soll jede Klasse einen Teil des Datensatzes mit gemeinsamen Merkmalen enthalten. 
+													Reinforcement Learning weist ein ähnliches Verhalten, wie das menschliche Lernen auf, da nicht bei jeder Aktion ein Feedback gegeben wird. Der Algorithmus versucht, Aktionen für einen gegebenen Satz von Zuständen zu lernen, die zu einem Zielzustand führen. Dabei wird nicht nach jedem Beispiel ein Fehler ausgegeben (wie beim supervised Learning). 
+													Der Fehler wird beim Empfang des Verstärkungssignals ausgegeben. Bspw. wenn der Zielzustand erreicht wird. 
+													Es ist deshalb ähnlich zum menschlichen Verhalten, da nicht für alle Aktionen, sondern nur wenn eine Belohnung gerechtfertigt ist, ein Feedback gegeben wird.<Footnote i={4} desc="Vgl. Weber 2020, S. 40 ff."/> 
 													</p>
 													{getFooter(getFootnotes, 'FurtherLearning')}
 												</div>

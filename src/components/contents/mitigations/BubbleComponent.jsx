@@ -7,20 +7,14 @@ export class BubbleComponent extends Component {
 	render() {
 		return (
 			<>
-				<div className="kreis1 useme shadow" onClick={() => youtubeAlert('Technischer Ansatz', '#66BB6A', 'dQw4w9WgXcQ', '⬤', false)}>
+				<div className="kreis1 useme shadow" onClick={() => youtubeAlert('Mitigation von Biases', '#66BB6A', '5bt9C0ikpb8', '⬤', false)}>
 					<span className="white-span">
 						<FontAwesomeIcon icon={faYoutube} size="4x"/>
 					</span>
-					<h5>Technischer Ansatz</h5>
+					<h5>Mitigation von Biases</h5>
 				</div>
 
-				<div className="kreis2 useme shadow" onClick={() => youtubeAlert('Gesellschaftlicher Ansatz', '#FFCA28', 'dQw4w9WgXcQ', '⬤', false)}>
-					<span className="white-span">
-						<FontAwesomeIcon icon={faYoutube} size="4x"/>
-					</span>
-					<h5>Gesellschaftlicher Ansatz</h5>
-
-				</div>
+				
 			</>
 
 		);
