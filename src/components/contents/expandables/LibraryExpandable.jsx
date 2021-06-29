@@ -36,7 +36,6 @@ export const LibraryExpandable = () => {
 				<p><span className="font-weight-bold">Figueroa, A. (2019):</span> Correlation is not causation, https://towardsdatascience.com/correlation-is-not-causation-ae05d03c1f53, Abruf: 20.06.2021</p>
 				<p><span className="font-weight-bold">Gentsch (2019):</span> Künstliche Intelligenz für Sales, Marketing und Service, Wiesbaden: Springer Fachmedien</p>
 				<p><span className="font-weight-bold">Gordon, D. F./Desjardins, M. (1995):</span> Evaluation and selection of biases in machine learning, in: Machine Learning, 20. Jg., Nr. 1-2, S. 5–22</p>
-				<p><span className="font-weight-bold">Hadinger, S. (2016):</span> Build a Serverless, Private URL Shortener, https://aws.amazon.com/de/blogs/compute/build-a-serverless-private-url-shortener/, Abruf: 26.05.2021</p>
 
 				<p><span className="font-weight-bold">Hagendorff, T. (2019):</span> Maschinelles Lernen und Diskriminierung: Probleme und Lösungsansätze, in: Österreichische Zeitschrift für Soziologie, 44. Jg., Nr. S1, S. 53–66</p>
 				<p><span className="font-weight-bold">Hajian, S./Bonchi, F./Castillo, C. (2016):</span> Algorithmic Bias: From Discrimination Discovery to Fairness-aware Data Mining, in: Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, (Hrsg.: Krishnapuram, B. u.a. ), New York, NY, USA: ACM, S. 2125–2126</p>
