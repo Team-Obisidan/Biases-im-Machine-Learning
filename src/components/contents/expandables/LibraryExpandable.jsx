@@ -48,6 +48,8 @@ export const LibraryExpandable = () => {
 				<p><span className="font-weight-bold">Kersting, K./Tresp, V. (2019):</span> Maschinelles und Tiefes Lernen: Der Motor für „KI made in Germany“, in: Digitale Welt, 3. Jg., Nr. 4, S. 32–34</p>
 				<p><span className="font-weight-bold">Kim, Y./Huang, J./Emery, S. (2016):</span> Garbage in, Garbage Out: Data Collection, Quality Assessment and Reporting Standards for Social Media Data Use in Health Research, Infodemiology and Digital Disease Detection, in: Journal of medical Internet research, 18. Jg., Nr. 2, e41</p>
 				<p><span className="font-weight-bold">Kleesiek, J./Murray, J. M./Strack, C./Prinz, S./Kaissis, G./Braren, R. (2021):</span> Künstliche Intelligenz und maschinelles Lernen in der onkologischen Bildgebung, in: best practice onkologie, 16. Jg., Nr. 4, S. 176–185</p>
+				<p><span className="font-weight-bold">Kolleck, A./Orwat, C. (2020):</span> Mögliche Diskriminierung durch algorithmische Entscheidungssysteme und maschinelles Lernen – ein Überblick, https://www.tab-beim-bundestag.de/de/pdf/publikationen/berichte/TAB-Hintergrundpapier-hp024.pdf, Abruf: 21.06.2021</p>
+
 				<p><span className="font-weight-bold">Kühnel, S./Dingelstedt, A. (2014):</span> Kausalität, in: Handbuch Methoden der empirischen Sozialforschung, (Hrsg.: Baur, N./Blasius, J.), Wiesbaden: Springer Fachmedien Wiesbaden, S. 1017–1028</p>
 				<p><span className="font-weight-bold">Krossa, A. S. (2018):</span> Gesellschaft, Betrachtungen eines Kernbegriffs der Soziologie, Wiesbaden: Springer VS</p>
 

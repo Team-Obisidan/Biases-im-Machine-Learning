@@ -91,49 +91,59 @@ export class FeatureComponent extends Component {
 															Anwendungen, bei denen Machine Learning angewendet werden, haben oftmals eine große gesellschaftliche Reich- oder Tragweite.
 															{' '}
 															Umso wichtiger ist es, dass die Anwendung von Verfahren des Machine Learning auf Verzerrungen oder Voreingenommenheit überprüft werden.<Footnote i={1} desc="Vgl. Hagendorff 2019, S. 54"/>
-															{' '}
+															<br />
+															<br />
+															&bdquo;Erstens ist es möglich, dass die Technikentwickelnden Voreingenommenheiten explizit oder implizit direkt
+															in ein Verfahren oder technisches Artefakt einbauen. Zweitens kann es passieren, dass sich Wertannahmen nicht intendiert in Verfahren oder Artefakte einschreiben, 
+															etwa, wenn bei lernenden Verfahren Trainingsdaten verwendet werden, in denen gesellschaftliche Ungleichbehandlungen abgebildet sind. 
+															Das System lernt diese Ungleichbehandlungen und setzt sie (oftmals in gesteigerter
+															Größenordnung) fort.&ldquo;<Footnote i={2} desc="Kolleck/Orwat 2020, S. 32"/>
+															<br />
+															<br />
+															Dabei wird sich hier vorallem auf die gesellschaftlichen Biases beschränkt.
+
 														</p>
 
 														<YouTubeExpandable slug="qEAYDe06bE4" title="Biases im Machine Learning"/>
 														<p>
 															Die Voreingenommenheit besagt die unterschiedlichen Schlüsse, die wir je nach unseren Erfahrungen ziehen.
 															{' '}
-															Die Verzerrung beschreibt im statistischen Sinne die mittlere systematische Abweichung zwischen dem erwarteten („richtigen“) Modellergebnis und dem mittleren wirklich eingetretenen Modellergebnis.<Footnote i={2} desc="Vgl. Mehrabi/Morstatter/Saxena/Lerman/Galstyan 2019, S. 3 ff."/>
+															Die Verzerrung beschreibt im statistischen Sinne die mittlere systematische Abweichung zwischen dem erwarteten („richtigen“) Modellergebnis und dem mittleren wirklich eingetretenen Modellergebnis.<Footnote i={3} desc="Vgl. Mehrabi/Morstatter/Saxena/Lerman/Galstyan 2019, S. 3 ff."/>
 															{' '}
 															Oftmals ergeben sich schlechte Ergebnisse durch schlechte Eingangsdaten (garbage in garbage out).
 															{' '}
 														</p>
 														<p>
-															Dies ist allerdings nicht der einzige Grund. Die Folge der Bias sind Fehler in den Ergebnissen der KI, durch bspw. diskriminierende Strukturen.<Footnote i={3} desc="Vgl. Mehrabi/Morstatter/Saxena/Lerman/Galstyan 2019, S. 4 ff."/><sup>,</sup><Footnote i={4} desc="Vgl. Kagian/Dror/Leyvand/Meilijson/Cohen-Or/Ruppin, S. 235 ff."/>
+															Dies ist allerdings nicht der einzige Grund. Die Folge der Bias sind Fehler in den Ergebnissen der KI, durch bspw. diskriminierende Strukturen.<Footnote i={4} desc="Vgl. Mehrabi/Morstatter/Saxena/Lerman/Galstyan 2019, S. 4 ff."/><sup>,</sup><Footnote i={5} desc="Vgl. Kagian/Dror/Leyvand/Meilijson/Cohen-Or/Ruppin, S. 235 ff."/>
 															{' '}
-															Es gibt viele verschiedene Arten von Bias. Beispiele hierfür sind: <span className="font-weight-bold">Representation Bias</span>, <span className="font-weight-bold">Measurement Bias</span>, <span className="font-weight-bold">Aggregation Bias</span>, <span className="font-weight-bold">Deployment Bias</span> und <span className="font-weight-bold">Historical Bias</span>.<Footnote i={5} desc="Vgl. Mehrabi/Morstatter/Saxena/Lerman/Galstyan 2019, S. 4 ff."/>
+															Es gibt viele verschiedene Arten von Bias. Beispiele hierfür sind: <span className="font-weight-bold">Representation Bias</span>, <span className="font-weight-bold">Measurement Bias</span>, <span className="font-weight-bold">Aggregation Bias</span>, <span className="font-weight-bold">Deployment Bias</span> und <span className="font-weight-bold">Historical Bias</span>.<Footnote i={6} desc="Vgl. Mehrabi/Morstatter/Saxena/Lerman/Galstyan 2019, S. 4 ff."/>
 															{' '}
 														</p>
 														<p>
-															Bei dem <span className="font-weight-bold">Representation Bias</span> ist immer ein bestimmter Teil des Eingaberaums unterrepräsentiert.<Footnote i={6} desc="Vgl. Suresh/Guttag 2020, S. 2 f."/>
+															Bei dem <span className="font-weight-bold">Representation Bias</span> ist immer ein bestimmter Teil des Eingaberaums unterrepräsentiert.<Footnote i={7} desc="Vgl. Suresh/Guttag 2020, S. 2 f."/>
 															{' '}
 															Wenn eine Gruppe eine Minderheit mit nur bspw. 5 % der Verteilung ausmacht, dann führt das Sampling aus der Datenverteilung wahrscheinlich zu einem weniger funktionierenden Modell für diese Gruppe.
 															{' '}
-															Ein Beispiel aus der Praxis, welches leider immer wieder auftritt ist, dass farbige Personen seltener bei Testdaten verwendet werden und so auch seltener auf Bilderkennungsprogram identifiziert werden können.<Footnote i={7} desc="Vgl. Mehrabi/Morstatter/Saxena/Lerman/Galstyan 2019, S. 4 ff."/><sup>,</sup><Footnote i={8} desc="Vgl. Suresh/Guttag 2020, S. 5"/>
+															Ein Beispiel aus der Praxis, welches leider immer wieder auftritt ist, dass farbige Personen seltener bei Testdaten verwendet werden und so auch seltener auf Bilderkennungsprogram identifiziert werden können.<Footnote i={8} desc="Vgl. Mehrabi/Morstatter/Saxena/Lerman/Galstyan 2019, S. 4 ff."/><sup>,</sup><Footnote i={9} desc="Vgl. Suresh/Guttag 2020, S. 5"/>
 															{' '}
 														</p>
 														<p>
 															Beim <span className="font-weight-bold">Measurement Bias</span> führt falsches kategorisieren dazu, dass die Ergebnisse bzw. die Testdaten falsch sind und infolgedessen die KI auch falsche Ergebnisse ausgibt.
 															{' '}
-															Diese Messverzerrung kann bei der Auswahl, Sammlung oder Berechnung von Merkmalen und Labels auftreten.<Footnote i={9} desc="Vgl. Mehrabi/Morstatter/Saxena/Lerman/Galstyan 2019, S. 4 ff."/><sup>,</sup><Footnote i={10} desc="Vgl. Suresh/Guttag 2020, S. 5 f."/>
+															Diese Messverzerrung kann bei der Auswahl, Sammlung oder Berechnung von Merkmalen und Labels auftreten.<Footnote i={10} desc="Vgl. Mehrabi/Morstatter/Saxena/Lerman/Galstyan 2019, S. 4 ff."/><sup>,</sup><Footnote i={11} desc="Vgl. Suresh/Guttag 2020, S. 5 f."/>
 															{' '}
 														</p>
 														<p>
 															<span className="font-weight-bold">Aggregation Bias</span> beschreibt das Phänomen, dass ein Modell nicht für die Problemlösung nicht ausreicht.
 															{' '}
-															Diese Verzerrung entsteht durch Verwendung eines Einheitsmodell für Gruppen mit unterschiedlichen bedingten Verteilungen.<Footnote i={11} desc="Vgl. Mehrabi/Morstatter/Saxena/Lerman/Galstyan 2019, S. 4 ff."/>
+															Diese Verzerrung entsteht durch Verwendung eines Einheitsmodell für Gruppen mit unterschiedlichen bedingten Verteilungen.<Footnote i={12} desc="Vgl. Mehrabi/Morstatter/Saxena/Lerman/Galstyan 2019, S. 4 ff."/>
 															{' '}
 															Bspw. ist bekannt, dass Diabetes-Patienten je nach ethnischer Zugehörigkeit unterschiedliche Komplikationen aufweisen.
 															{' '}
-															Da diese Faktoren innerhalb verschiedener Subpopulationen unterschiedliche Bedeutungen haben, ist es unwahrscheinlich, dass ein einziges Modell zur Vorhersage von Komplikationen für jede Gruppe in der Population ausreichend ist, selbst wenn sie in den Trainingsdaten gleichermaßen vertreten sind.<Footnote i={12} desc="Vgl. Suresh/Guttag 2020, S. 6"/>
+															Da diese Faktoren innerhalb verschiedener Subpopulationen unterschiedliche Bedeutungen haben, ist es unwahrscheinlich, dass ein einziges Modell zur Vorhersage von Komplikationen für jede Gruppe in der Population ausreichend ist, selbst wenn sie in den Trainingsdaten gleichermaßen vertreten sind.<Footnote i={13} desc="Vgl. Suresh/Guttag 2020, S. 6"/>
 														</p>
 														<p>
-															<span className="font-weight-bold">Deployment Biases</span> entstehen, wenn Diskrepanzen zwischen der Problemlösung eines Modells und der Art und Weise, wie das Modell tatsächlich verwendet wird, auftreten.<Footnote i={13} desc="Vgl. Suresh/Guttag 2020, S. 2 ff."/> <br/>
+															<span className="font-weight-bold">Deployment Biases</span> entstehen, wenn Diskrepanzen zwischen der Problemlösung eines Modells und der Art und Weise, wie das Modell tatsächlich verwendet wird, auftreten.<Footnote i={14} desc="Vgl. Suresh/Guttag 2020, S. 2 ff."/> <br/>
 															Ein Modell wird quasi für Fall X gebaut, wird dann aber für Fall Y verwendet.
 															{' '}
 															Da das Modell dafür nicht erstellt wurde, gibt es keine Garantie, dass eine gute Evaluationsleistung von Anwendungsfall zu Anwendungsfall übertragen wird. <br/>
@@ -144,17 +154,17 @@ export class FeatureComponent extends Component {
 															{' '}
 															Die Folge sind versicherungsmathematische Strafzumessungen, die eine erhöhte Inhaftierungen auf Grund persönlicher Merkmale ergeben.
 															{' '}
-															So bekommen farbige Personen häufig eine längere Haftstrafe.<Footnote i={14} desc="Vgl. Suresh/Guttag 2020, S. 6 ff."/>
+															So bekommen farbige Personen häufig eine längere Haftstrafe.<Footnote i={15} desc="Vgl. Suresh/Guttag 2020, S. 6 ff."/>
 															{' '}
 														</p>
 														<p>
 															<span className="font-weight-bold">Historical Bias</span> treten selbst bei perfekt gemessenen und gelabelten Daten auf.
 															{' '}
-															Diese Verzerrung entsteht, wenn Geschehnisse auf der Welt ein Modell dazu bringen, Ergebnisse zu produzieren, diese Ergebnisse jedoch nicht erwünscht sind.<Footnote i={15} desc="Vgl. Suresh/Guttag 2020, S. 2 f."/>
+															Diese Verzerrung entsteht, wenn Geschehnisse auf der Welt ein Modell dazu bringen, Ergebnisse zu produzieren, diese Ergebnisse jedoch nicht erwünscht sind.<Footnote i={16} desc="Vgl. Suresh/Guttag 2020, S. 2 f."/>
 															{' '}
 															Bspw. ergeben Testdaten, dass nur 28,4 % der Frauen Führungskräfte besetzen.
 															{' '}
-															Infolgedessen schlägt die KI Frauen weniger „gute“ Stellen vor. Frauen werden demnach benachteiligt, obwohl die Testdaten keinen Fehler als solchen haben, sondern die historische Realität widerspiegeln.<Footnote i={16} desc="Vgl. Suresh/Guttag 2020, S. 4 f."/><sup>,</sup><Footnote i={17} desc="Vgl. Mehrabi/Morstatter/Saxena/Lerman/Galstyan 2019, S. 4 ff."/>
+															Infolgedessen schlägt die KI Frauen weniger „gute“ Stellen vor. Frauen werden demnach benachteiligt, obwohl die Testdaten keinen Fehler als solchen haben, sondern die historische Realität widerspiegeln.<Footnote i={17} desc="Vgl. Suresh/Guttag 2020, S. 4 f."/><sup>,</sup><Footnote i={18} desc="Vgl. Mehrabi/Morstatter/Saxena/Lerman/Galstyan 2019, S. 4 ff."/>
 															{' '}
 														</p>
 														{getFooter(getFootnotes, 'Biases')}
