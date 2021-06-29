@@ -222,7 +222,7 @@ export class FeatureComponent extends Component {
 															Nach Birgit Rommelspacher kann zwischen drei Ebenen von Diskriminierung unterschieden werden: Individuelle Diskriminierung, Institutionelle Diskriminierung und Strukturelle Diskriminierung:<Footnote i={13} desc="Vgl. Dieckmann 2017, S. 165"/>
 															<br/>
 														</p>
-														<p>
+														<br />
 															<table className="table table-striped">
 																<caption style={{textAlign: 'center'}}>Tabelle 1: Ebenen von Diskriminierung<Footnote i={14} desc="Enthalten in: Dieckmann 2017, S. 165"/>   </caption>
 																<thead>
@@ -246,7 +246,7 @@ export class FeatureComponent extends Component {
 																	</tr>
 																</tbody>
 															</table>
-														</p>
+														
 														<p>
 															<br/>
 															Bias im maschinellen Lernen betreffen vor allem die Ebenen der <span className="font-weight-bold">institutionellen</span>  und <span className="font-weight-bold">strukturellen</span> Diskriminierung.
