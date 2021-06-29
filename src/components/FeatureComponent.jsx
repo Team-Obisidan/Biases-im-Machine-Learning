@@ -222,31 +222,31 @@ export class FeatureComponent extends Component {
 															Nach Birgit Rommelspacher kann zwischen drei Ebenen von Diskriminierung unterschieden werden: Individuelle Diskriminierung, Institutionelle Diskriminierung und Strukturelle Diskriminierung:<Footnote i={13} desc="Vgl. Dieckmann 2017, S. 165"/>
 															<br/>
 														</p>
-														<br />
-															<table className="table table-striped">
-																<caption style={{textAlign: 'center'}}>Tabelle 1: Ebenen von Diskriminierung<Footnote i={14} desc="Enthalten in: Dieckmann 2017, S. 165"/>   </caption>
-																<thead>
-																	<tr>
-																		<th>Diskriminierungsebene</th>
-																		<th>Beispiele</th>
-																	</tr>
-																</thead>
-																<tbody>
-																	<tr>
-																		<td>Individuelle Diskriminierung: Menschen werden aufgrund ihrer Merkmale bzw. der Zuschreibung dieses Merkmals von einzelnen Menschen ungleich zu anderen Personen behandelt   </td>
-																		<td>Abwehrendes Verhalten,   beleidigende Äußerungen, verächtliche Blicke oder Gewalt   </td>
-																	</tr>
-																	<tr>
-																		<td>Institutionelle Diskriminierung: Menschen werden durch zugeschriebene Merkmale von Organisationen, Unternehmen oder der Verwaltung ungleich zu anderen Personen behandelt.   </td>
-																		<td>Wohnungsabsagen,   Jobabsagen, fehlende Barrierefreiheit beim Bau von Ämtern oder Supermärkten   und Polizeikontrollen   </td>
-																	</tr>
-																	<tr>
-																		<td>Strukturelle Diskriminierung: Ausgrenzungen   entstehen durch gesellschaftliche Systeme und deren Rechtsvorstellungen sowie   den politischen und ökonomischen Strukturen.   </td>
-																		<td>fehlende   Gleichstellung von gesellschaftlichen Minderheiten und Frauen   </td>
-																	</tr>
-																</tbody>
-															</table>
-														
+														<br/>
+														<table className="table table-striped">
+															<caption style={{textAlign: 'center'}}>Tabelle 1: Ebenen von Diskriminierung<Footnote i={14} desc="Enthalten in: Dieckmann 2017, S. 165"/>   </caption>
+															<thead>
+																<tr>
+																	<th>Diskriminierungsebene</th>
+																	<th>Beispiele</th>
+																</tr>
+															</thead>
+															<tbody>
+																<tr>
+																	<td>Individuelle Diskriminierung: Menschen werden aufgrund ihrer Merkmale bzw. der Zuschreibung dieses Merkmals von einzelnen Menschen ungleich zu anderen Personen behandelt   </td>
+																	<td>Abwehrendes Verhalten,   beleidigende Äußerungen, verächtliche Blicke oder Gewalt   </td>
+																</tr>
+																<tr>
+																	<td>Institutionelle Diskriminierung: Menschen werden durch zugeschriebene Merkmale von Organisationen, Unternehmen oder der Verwaltung ungleich zu anderen Personen behandelt.   </td>
+																	<td>Wohnungsabsagen,   Jobabsagen, fehlende Barrierefreiheit beim Bau von Ämtern oder Supermärkten   und Polizeikontrollen   </td>
+																</tr>
+																<tr>
+																	<td>Strukturelle Diskriminierung: Ausgrenzungen   entstehen durch gesellschaftliche Systeme und deren Rechtsvorstellungen sowie   den politischen und ökonomischen Strukturen.   </td>
+																	<td>fehlende   Gleichstellung von gesellschaftlichen Minderheiten und Frauen   </td>
+																</tr>
+															</tbody>
+														</table>
+
 														<p>
 															<br/>
 															Bias im maschinellen Lernen betreffen vor allem die Ebenen der <span className="font-weight-bold">institutionellen</span>  und <span className="font-weight-bold">strukturellen</span> Diskriminierung.

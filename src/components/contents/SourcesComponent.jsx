@@ -13,7 +13,7 @@ export class SourcesComponent extends Component {
 				<div className="quellen2 ">
 					<span className="green-span useme" onClick={() => youtubeAlert('Wer überwacht die Wächter?', '#66BB6A', 'K5A_s4XAA1o', '⬤', false)}>
 						<FontAwesomeIcon icon={faYoutube} size="5x"/>
-						
+
 					</span>
 					<span className="green-span ml20px useme">
 						<LibraryExpandable/>
