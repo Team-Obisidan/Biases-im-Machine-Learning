@@ -9,7 +9,7 @@ export const AbstractTextExpandable = props => {
 	}
 
 	return (
-		<div style={{cursor: 'pointer'}} onClick={() => textAlert(props.title, props.children[2], props.iconHtml, props.iconColor)}>
+		<div style={{cursor: 'pointer', ...props.style}} className={props.className} onClick={() => textAlert(props.title, props.children[2], props.iconHtml, props.iconColor)}>
 			{props.children[0]}
 			{props.children[1]}
 		</div>

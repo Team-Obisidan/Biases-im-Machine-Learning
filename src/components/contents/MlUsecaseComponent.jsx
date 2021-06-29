@@ -1,10 +1,12 @@
 import React, {Component} from 'react';
 import {Footnotes} from '@team-obisidan/react-footnotes';
 import {getFooter} from 'components/GetFooter.jsx';
-import {TextExpandable} from './expandables/TextExpandable.jsx';
 import prisoner from './prisoner.jpeg';
 import {ReactComponent as RiskWhite} from './risk-scores-white.svg';
 import {ReactComponent as RiskBlack} from './risk-scores-black.svg';
+import IncomeML from './Income-ML-results.png';
+import IncomeSpan from './Income-Span.png';
+import {AbstractTextExpandable} from './expandables/AbstractTextExpandable.jsx';
 
 export class MLUsecaseComponent extends Component {
 	render() {
@@ -15,9 +17,25 @@ export class MLUsecaseComponent extends Component {
 				</div>
 				<div className="inter-lvl">
 
-					<div className="inhalt1 shadow-sm">
+					<div className="inhalt1 shadow-sm overflow-hidden">
 
-						<TextExpandable title="Bereiche" length="1000">
+						<AbstractTextExpandable title="Bereiche" length="1000" iconHtml="🕮" iconColor="black">
+							<h4>Bereiche</h4>
+							<Footnotes>
+								{({Footnote, getFootnotes}) => (
+									<div style={{textAlign: 'left'}}>
+
+										<p>
+											Machine Learning findet mit den letzten Jahren zunehmend seinen Weg in immer mehr Bereiche der Wirtschaft, der Bildung und der öffentlichen Verwaltung.<Footnote i={1} desc="Vgl. Arora, A. (2018), S. 1"/>
+											<br/>
+											Wie soetwas in der Praxis aussieht, wird in diesem und dem nebenstehenden Element erläutert.
+
+										</p>
+
+										{getFooter(getFootnotes, 'MLBereiche')}
+									</div>
+								)}
+							</Footnotes>
 							<Footnotes>
 								{({Footnote, getFootnotes}) => (
 									<div style={{textAlign: 'left'}}>
@@ -29,25 +47,37 @@ export class MLUsecaseComponent extends Component {
 											{' '}
 											Häufig wird hierbei angenommen das die KI den Menschen in vielen Bereichen ersetzen wird, während die Forschung in diesem Bereich davon ausgeht, dass derartige Systeme für lange Zeit lediglich ergänzend zur menschlichen Tätigkeit stattfinden.<Footnote i={2} desc="Vgl. Adorno, M. et al. (2020), S. 67 f."/>
 											{' '}
-											Während im Bereich der Wirtschaft Machine Learning Prozessunterstützend angewandt wird und damit der Erhöhung der Effizienz dienen soll, gibt es zunehmend gesellschaftliche Bereiche in denen Machine Learning genutzt wird.<Footnote i={3} desc="Vgl. Liu, H.; Gegov, A.; Cocea, M. (2016), S. 588"/>
+											<br/>
+											Während im Bereich der Wirtschaft Machine Learning Prozessunterstützend angewandt wird und damit der Erhöhung der Effizienz dienen soll, gibt es zunehmend gesellschaftliche Bereiche, in denen Machine Learning genutzt wird.<Footnote i={3} desc="Vgl. Liu, H.; Gegov, A.; Cocea, M. (2016), S. 588"/>
 											<br/>
 
 											Hierbei werden Schwachstellen der KIs hinsichtlich des Umgangs mit Menschen aufgedeckt.
 											{' '}
-											Einige prominente Fälle, in denen Machine Learning im Umgang mit Menschen versagt werden im Folgenden erläutert.
+											<br/>
+											<br/>
+											Einige prominente Fälle, in denen Machine Learning im Umgang mit Menschen versagt, werden im nebenstehenden Element (&quot;Beispiele&quot;) erläutert.
 
 										</p>
 
-										{getFooter(getFootnotes)}
+										{getFooter(getFootnotes, 'MLBereiche')}
 									</div>
 								)}
 							</Footnotes>
-						</TextExpandable>
+						</AbstractTextExpandable>
 					</div>
 
-					<div className="inhalt2 shadow-sm">
+					<div className="inhalt2 shadow-sm overflow-hidden">
 
-						<TextExpandable title="Beispiele">
+						<AbstractTextExpandable title="Beispiele" iconHtml="🕮" iconColor="black">
+							<h4>Beispiele</h4>
+							<p>
+								Folgende Beispiele werden in diesem Element gezeigt: <br/>
+								<br/>
+								<p><u>Amazons Bewerbungstool</u></p>
+
+								<p><u>Machine Learning Algorithmus erkennt keine Lebensmittel/Produkte niedriger Einkommensklassen</u></p>
+								<p><u>Machine Learning System zur Beurteilung der Rückfälligkeit von Sträflingen</u></p>
+							</p>
 							<Footnotes>
 								{({Footnote, getFootnotes}) => (
 									<div style={{textAlign: 'left'}}>
@@ -60,7 +90,7 @@ export class MLUsecaseComponent extends Component {
 											{' '}
 											Genauer sortierte die KI Bewerbungen in denen das Wort „women“ vorkam direkt aus. Grund hierfür ist Datenbasis, von der die KI lernt.
 											{' '}
-											Amazon stellte in der Vergangenheit ohnehin vorzugsweise männliche Bewerber ein. Somit ist keine Geschlechts-neutrale Beurteilung der Bewerbungen möglich.<Footnote i={4} desc="Vgl. Oppenheim, M. (2018)."/>
+											Amazon stellte in der Vergangenheit ohnehin vorzugsweise männliche Bewerber ein. Somit ist keine Geschlechts-neutrale Beurteilung der Bewerbungen möglich.<Footnote i={1} desc="Vgl. Oppenheim, M. (2018)."/>
 
 										</p>
 
@@ -72,23 +102,55 @@ export class MLUsecaseComponent extends Component {
 											{' '}
 											Es wurde festgestellt, das Lebensmittel aus gewissen Regionen für gewisse Einkommensklassen vermehrt falsch zugeordnet wurden.
 											{' '}
-											Während die Erkennung in Ländern und Regionen mit hohem Einkommen sehr treffsicher war, wurden Lebensmittel in anderen Regionen häufig falsch zugeordnet.<Footnote i={5} desc="Vgl. DeVries, T. et al. (2019), S. 52 f."/>
-											{' '}
-											Das Prinzip ist auch hierbei dasselbe, wie auch bei Amazons Bewerbungstool. Das System lernt von bestehenden Daten.
-											{' '}
-											Wenn diese Daten verstärkt aus einer ethnischen Gruppe, einer Einkommensklasse oder einem Geschlecht bestehen, wird die KI auch hierfür die besten Ergebnisse liefern.<Footnote i={6} desc="Vgl. Kim, Y.; Huang, J.; Emery, S. (2016), 1-3"/>
+											Während die Erkennung in Ländern und Regionen mit hohem Einkommen sehr treffsicher war, wurden Lebensmittel in anderen Regionen häufig falsch zugeordnet.<Footnote i={2} desc="Vgl. DeVries, T. et al. (2019), S. 52 f."/>
 
 										</p>
+										<div className="container w-100">
+											<div className="row">
+
+												<div className="col-md-6 offset-md-3">
+													<img src={IncomeML} alt="Prisoner" className="w-100"/>
+
+												</div>
+											</div>
+											<div className="row">
+												<div className="col-md-7 offset-md-3">
+													<p className="mt-3">Abbildung 1: Erkannte Objekte der populärsten Algorithmen<Footnote i={3} desc="Entnommen aus: DeVries, T./Misra, I./Wang, C./van der Maaten, L. (2019)"/></p>
+												</div>
+											</div>
+											<br/>
+											<div className="row">
+												<div className="col-12">
+													Das Prinzip ist auch hierbei dasselbe, wie auch bei Amazons Bewerbungstool. Das System lernt von bestehenden Daten.
+													{' '}
+													Wenn diese Daten verstärkt aus einer ethnischen Gruppe, einer Einkommensklasse oder einem Geschlecht bestehen, wird die KI auch hierfür die besten Ergebnisse liefern.<Footnote i={3} desc="Vgl. Kim, Y.; Huang, J.; Emery, S. (2016), 1-3"/>
+												</div>
+											</div>
+
+											<div className="row pt-3">
+
+												<div className="col-md-5 offset-md-3">
+													<img src={IncomeSpan} alt="Prisoner" className="w-100"/>
+
+												</div>
+											</div>
+											<div className="row">
+												<div className="col-md-8 offset-md-2">
+													<p className="mt-3">Abbildung 2: Treffsicherheit des Algorithmus und Einkommenslevel<Footnote i={5} desc="Entnommen aus: DeVries, T./Misra, I./Wang, C./van der Maaten, L. (2019)"/></p>
+												</div>
+											</div>
+										</div>
+										<br/>
 
 										<p>
-											<u>Machine Learning System für Rückfälligkeit von Sträflingen:</u> <br/>
-											IIn den USA wird in einigen Bundesstaaten ein Tool eingesetzt, welches die Rückfälligkeit zu erneuten Straftaten von ehemals Verurteilten StraftäterInnen beurteilen soll.
+											<u>Machine Learning System zur Beurteilung der Rückfälligkeit von Sträflingen:</u> <br/>
+											In den USA wird in einigen Bundesstaaten ein Tool eingesetzt, welches die Rückfälligkeit zu erneuten Straftaten von ehemals Verurteilten StraftäterInnen beurteilen soll.
 											{' '}
 											Dieses Tool wird zur Risikoeinschätzung genutzt und soll bei der Entscheidung von Richtern über die Freilassung von Häftlingen miteinbezogen werden.
 											{' '}
-											Zum einen stellte sich bei einer Studie heraus das die Übereinstimmung der KI mit den tatsächlichen Rückfallquoten nur bei 20% liegt.<Footnote i={5} desc="Vgl. Northpoint Inc. (2021)"/>
+											Zum einen stellte sich bei einer Studie heraus das die Übereinstimmung der KI mit den tatsächlichen Rückfallquoten nur bei 20% liegt.<Footnote i={6} desc="Vgl. Northpoint Inc. (2021)"/>
 											{' '}
-											Zum anderen und hier liegt das Hauptproblem dieser KI: sie unterscheidet basierend auf ethnischen Merkmalen der StraftäterInnen und schätzt das Risiko für Rückfälligkeit bei People-of-Color grundsätzlich höher ein, als das weißer StraftäterInnen. <Footnote i={5} desc="Vgl. Angwin, J./Larson, J./Kirchner, L./Mattu, S. (2016)"/>
+											Zum anderen und hier liegt das Hauptproblem dieser KI: sie unterscheidet basierend auf ethnischen Merkmalen der StraftäterInnen und schätzt das Risiko für Rückfälligkeit bei People-of-Color grundsätzlich höher ein, als das weißer StraftäterInnen. <Footnote i={7} desc="Vgl. Angwin, J./Larson, J./Kirchner, L./Mattu, S. (2016)"/>
 											{' '}
 
 										</p>
@@ -103,7 +165,7 @@ export class MLUsecaseComponent extends Component {
 											</div>
 											<div className="row">
 												<div className="col-md-10 offset-md-1">
-													<p className="mt-3">Abbildung 1: Rückfälligkeits-Bewertung im Vergleich zweier StraftäterInnen<Footnote i={7} desc="fehlt"/></p>
+													<p className="mt-3">Abbildung 3: Rückfälligkeits-Bewertung im Vergleich zweier StraftäterInnen<Footnote i={8} desc="Vgl. Angwin, J./Larson, J./Kirchner, L./Mattu, S. (2016)"/></p>
 												</div>
 											</div>
 
@@ -116,7 +178,7 @@ export class MLUsecaseComponent extends Component {
 											</div>
 											<div className="row">
 												<div className="col-md-10 offset-md-1">
-													<p className="mt-3">Abbildung 2: Bewertung im Schnitt bei kaukasisch/weißen Personen<Footnote i={8} desc="Vgl. Angwin, J./Larson, J./Kirchner, L./Mattu, S. (2016)"/></p>
+													<p className="mt-3">Abbildung 4: Bewertung im Schnitt bei kaukasisch/weißen Personen<Footnote i={9} desc="Vgl. Angwin, J./Larson, J./Kirchner, L./Mattu, S. (2016)"/></p>
 												</div>
 											</div>
 
@@ -129,17 +191,17 @@ export class MLUsecaseComponent extends Component {
 											</div>
 											<div className="row">
 												<div className="col-md-10 offset-md-1">
-													<p className="mt-3">Abbildung 3: Bewertung im Schnitt bei maximalpigmentierten Personen<Footnote i={9} desc="Vgl. Angwin, J./Larson, J./Kirchner, L./Mattu, S. (2016)"/></p>
+													<p className="mt-3">Abbildung 5: Bewertung im Schnitt bei maximalpigmentierten Personen<Footnote i={10} desc="Vgl. Angwin, J./Larson, J./Kirchner, L./Mattu, S. (2016)"/></p>
 												</div>
 											</div>
 
 										</div>
 
-										{getFooter(getFootnotes)}
+										{getFooter(getFootnotes, 'MLBeispiele')}
 									</div>
 								)}
 							</Footnotes>
-						</TextExpandable>
+						</AbstractTextExpandable>
 					</div>
 
 				</div>

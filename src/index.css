@@ -45,7 +45,7 @@ header{
   font-family: "Roboto-Slab", "Times New Roman", Times, serif;
 }
 
-.theorie {
+.theo-box {
   width: 1040px;
   height: 348px;
   background: rgba(167,192,205,1);
@@ -58,6 +58,7 @@ header{
   overflow: hidden;
   
 }
+
 
 .th-topic{
   display: grid;
@@ -138,7 +139,7 @@ align-items: center;
   float: left;
   margin-top: 10px;
   background-color: #fff;
-  width:  60%;
+  width:  50%;
   border-radius: 4px;
   padding: 10px;
   height: 84%;
@@ -149,7 +150,7 @@ align-items: center;
 
 .inhalt2{
   float: left;
-  width: 37%;
+  width: 47%;
   background-color: #fff;
   border-radius: 4px;
   padding: 10px;
@@ -194,7 +195,7 @@ align-items: center;
   margin: 2%;
   margin-top: 0px;
   width: 100%;
-  height: 644px;
+  height: 670px;
   background: rgba(167,192,205,1);
   opacity: 1;
   -position: absolute;
@@ -232,7 +233,7 @@ align-items: center;
   background-color: #fff;
   border-radius: 4px;
   padding: 10px;
-  height: 212px;
+  height: 235px;
   margin-top: 12px;
   margin-bottom: 2%;
   margin-right: 13px;
@@ -244,7 +245,7 @@ align-items: center;
   background-color: #fff;
   border-radius: 4px;
   padding: 10px;
-  height: 212px;
+  height: 235px;
   margin-top: 12px;
   margin-bottom: 2%;
   margin-right: 13px;
@@ -258,7 +259,7 @@ align-items: center;
   background-color: #fff;
   border-radius: 4px;
   padding: 10px;
-  height: 212px;
+  height: 235px;
   margin-top: 12px;
   margin-bottom: 2%;
   margin-right: 0px;
@@ -331,6 +332,32 @@ align-items: center;
   align-items: center;
 }
 
+.mo-boxen a {
+  background-color: #9CCC65;
+  height: 80px;
+  width: 16%;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mo-boxen a#t{
+  background-color: #FFCA28;
+  height: 80px;
+  width: 16%;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a p{
+  color: #000000;
+}
+
 .box1{
   background-color: #9CCC65;
   height: 80px;
@@ -341,6 +368,7 @@ align-items: center;
   margin-left: auto;
   margin-right: auto;
 }
+
 .box2{
   background-color: #FFCA28;
   height: 80px;
